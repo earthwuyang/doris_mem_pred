@@ -1,4 +1,5 @@
 import re
+import torch
 
 NodeType = {'PhysicalIntersect', 
             'PhysicalLimit', 
@@ -22,8 +23,10 @@ NodeType = {'PhysicalIntersect',
             'PhysicalWindow', 
             'PhysicalNestedLoopJoin'
             }
+nodetype2idx = {t:i for i, t in enumerate(NodeType)}
 
 distributionSpec_list = {'DistributionSpecReplicated', 'DistributionSpecGather', 'DistributionSpecExecutionAny', 'DistributionSpecHash'}
+distributionSpec2idx = {t:i for i, t in enumerate(distributionSpec_list)}
 
 class Node:
     def __init__(self, name, id, order, attributes, cardinality, node_level):
@@ -36,7 +39,9 @@ class Node:
         self.children = []  # it's weird why we replace [] with children here, the code will run into problem
         # print(f"in Node,  name {name}, id {id}, order {order}, cardinality {cardinality}, node_level {node_level}")
 
-
+        self.table = None
+        self.columns = None
+        self.limit = 0
         if self.name == 'PhysicalOlapScan':
             self.extract_olap_scan(attributes)
         if self.name == 'PhysicalProject':
@@ -47,6 +52,16 @@ class Node:
             self.extract_filter(attributes)
         if self.name == 'PhysicalTopN':
             self.extract_topn(attributes)
+
+        nodetype=nodetype2idx[self.name]
+        card= int(float(self.cardinality))
+        card = torch.log(card)
+        # table_rows = get_table_rows(self.table) if self.table is not None else 0
+        num_of_columns = len(self.columns) if self.columns is not None else 0
+        limit = int(self.limit)
+
+        # self.features = torch.tensor([nodetype, card, table_rows, num_of_columns, limit])
+        self.features = torch.tensor([nodetype, card, num_of_columns, limit])
    
     def print_tree(self):
         print(' '*self.node_level + self.__str__())
@@ -61,7 +76,7 @@ class Node:
 
     def __str__(self):
         return_str = f"NodeId#{self.id}"
-        return_str += '__' + 'stats_' + str(self.cardinality)
+        # return_str += '__' + 'stats_' + str(self.cardinality)
         # if self.name == 'PhysicalOlapScan':
         #     return_str += '__' + 'database_' + self.database + '__' + 'table_' + self.table
         # if self.name == 'PhysicalProject':
@@ -72,6 +87,7 @@ class Node:
         #     return_str += '__' + 'predicates_(' + self.predicates + ')'
         # if self.name == 'PhysicalTopN':
         #     return_str += '__' + 'limit_' + self.limit
+        return_str += '_' + str(self.features.tolist())
         return return_str
     
     def extract_olap_scan(self, attributes):
