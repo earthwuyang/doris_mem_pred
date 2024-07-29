@@ -1,5 +1,5 @@
 import re
-import torch
+import math
 
 NodeType = {'PhysicalIntersect', 
             'PhysicalLimit', 
@@ -21,7 +21,10 @@ NodeType = {'PhysicalIntersect',
             'PhysicalProject', 
             'PhysicalRepeat', 
             'PhysicalWindow', 
-            'PhysicalNestedLoopJoin'
+            'PhysicalNestedLoopJoin',
+            'PhysicalEmptyRelation',
+            'PhysicalOneRowRelation',
+            'PhysicalStorageLayerAggregate'
             }
 nodetype2idx = {t:i for i, t in enumerate(NodeType)}
 
@@ -29,12 +32,14 @@ distributionSpec_list = {'DistributionSpecReplicated', 'DistributionSpecGather',
 distributionSpec2idx = {t:i for i, t in enumerate(distributionSpec_list)}
 
 class Node:
-    def __init__(self, name, id, order, attributes, cardinality, node_level):
+    def __init__(self, node_id, name, id, order, attributes, cardinality, table, node_level):
+        self.nodeid = node_id
         self.name = name
         self.id = id
         self.order = order # Note that the root node has order -1, because its order number is not explicitly given in the query plan
         self.attributes = attributes
         self.cardinality = cardinality
+        self.table = table
         self.node_level = node_level
         self.children = []  # it's weird why we replace [] with children here, the code will run into problem
         # print(f"in Node,  name {name}, id {id}, order {order}, cardinality {cardinality}, node_level {node_level}")
@@ -42,8 +47,8 @@ class Node:
         self.table = None
         self.columns = None
         self.limit = 0
-        if self.name == 'PhysicalOlapScan':
-            self.extract_olap_scan(attributes)
+        # if self.name == 'PhysicalOlapScan':
+        #     self.extract_olap_scan(attributes)
         if self.name == 'PhysicalProject':
             self.extract_project(attributes)
         if self.name == 'PhysicalDistribute':
@@ -55,13 +60,13 @@ class Node:
 
         nodetype=nodetype2idx[self.name]
         card= int(float(self.cardinality))
-        card = torch.log(card)
+        card = math.log1p(card)  # beware what the inverse function of log1p is
         # table_rows = get_table_rows(self.table) if self.table is not None else 0
         num_of_columns = len(self.columns) if self.columns is not None else 0
         limit = int(self.limit)
 
         # self.features = torch.tensor([nodetype, card, table_rows, num_of_columns, limit])
-        self.features = torch.tensor([nodetype, card, num_of_columns, limit])
+        self.features = [nodetype, card, num_of_columns, limit]
    
     def print_tree(self):
         print(' '*self.node_level + self.__str__())
@@ -87,18 +92,20 @@ class Node:
         #     return_str += '__' + 'predicates_(' + self.predicates + ')'
         # if self.name == 'PhysicalTopN':
         #     return_str += '__' + 'limit_' + self.limit
-        return_str += '_' + str(self.features.tolist())
+        return_str += '_' + str(self.features)
+        if self.nodeid is not None:
+            return_str += "_" + str(self.nodeid)
         return return_str
     
-    def extract_olap_scan(self, attributes):
-        olap_pattern = r"qualified=([A-Za-z0-9_]+\.[A-Za-z0-9_]+)"
-        match=re.search(olap_pattern, attributes)
+    # def extract_olap_scan(self, attributes):
+    #     olap_pattern = r"qualified=([A-Za-z0-9_]+\.[A-Za-z0-9_]+)"
+    #     match=re.search(olap_pattern, attributes)
 
-        if match:
-            qualified = match.groups(0)
-            self.database, self.table = qualified[0].split('.')
-        else:
-            raise ValueError(f"Unable to extract qualified from attributes: {attributes}")
+    #     if match:
+    #         qualified = match.groups(0)
+    #         self.database, self.table = qualified[0].split('.')
+    #     else:
+    #         raise ValueError(f"Unable to extract qualified from attributes: {attributes}")
         
     def extract_project(self, attributes):
         project_pattern = r"projects=\[([^\]]+)\]"
@@ -151,6 +158,13 @@ class Node:
             self.limit = match.groups(0)[0]
         else:
             raise ValueError(f"Unable to extract limit from attributes: {attributes}")
+    
+    # def get_label_for_each_node(self, node_id):
+    #     self.nodeid = node_id
+    #     node_id += 1
+    #     for child in self.children:
+    #         node_id = child.get_label_for_each_node(node_id)
+    #     return node_id
 
 def extract_stats(attributes):
     stats_pattern = r'stats=([\d,\.]+) ([\d]+)'

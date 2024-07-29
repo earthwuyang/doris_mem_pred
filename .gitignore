@@ -3,3 +3,6 @@ raw_data*/
 training_data/
 backup/
 plans/
+tests/
+tpch_data/
+*.zip

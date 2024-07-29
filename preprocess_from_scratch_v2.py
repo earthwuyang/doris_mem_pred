@@ -10,15 +10,17 @@ from collections import defaultdict
 
 
 def collect_benchmark(benchmark):
-    fe_log_dir='/home/wuy/software/doris/output/fe/log'
+    fe_log_dir='/home/wuy/doris-master/output/fe/log'
 
     ### how mem.txt is obtained: cat be.INFO | grep runtime_query_statistics_mgr\.cpp\:67 > ~/wuy/DB/doris/mem.txt
-    be_log_dir = '/home/wuy/software/doris/output/be/log'
+    be_log_dir = '/home/wuy/doris-master/output/be/log'
 
     # output_file='/home/ahzgroup/wuy/DB/doris/query_mem_data.json'
     # extra_output_file = '/home/ahzgroup/wuy/DB/doris/query_mem_data_full.json'
-    output_file_csv=f'/home/wuy/DB/doris_mem_pred/data/query_mem_data_{benchmark}.csv'
-    output_plan_dir=f"/home/wuy/DB/doris_mem_pred/data/plans"
+    output_file_csv=f'/home/wuy/DB/doris_mem_pred/tpch_data/query_mem_data_{benchmark}.csv'
+    output_plan_dir=f"/home/wuy/DB/doris_mem_pred/tpch_data/plans"
+    if not os.path.exists(output_plan_dir):
+        os.makedirs(output_plan_dir)
 
     N=10
 
@@ -115,7 +117,7 @@ def collect_benchmark(benchmark):
             while line:
                 try:
                     timepoint=line[1:25]
-                    queryid=line.split('queryid:')[1].split('is_query_finished')[0].strip()
+                    queryid=line.split('queryid:')[1].split(',')[0].strip()
                     is_query_finished = line.split('is_query_finished:')[1].split(',')[0].strip()
                     mem_bytes=int(line.split('bytes:')[1].strip())
                     # print(f"queryid {queryid}, {is_query_finished}, {mem_bytes}")
@@ -129,6 +131,7 @@ def collect_benchmark(benchmark):
                             if len(queries_info[queryid]['mem_list']) > N:
                                 try:
                                     stmt=queries_info[queryid]["Stmt"]
+                                    stmt = stmt.replace(';',' ').strip()
                                     query_stmt = " explain optimized plan " + stmt + ";"
                                     cursor.execute(query_stmt)
                                     rows = cursor.fetchall()
@@ -140,7 +143,7 @@ def collect_benchmark(benchmark):
                                 lt = queries_info[queryid]["mem_list"]
                                 mem_list = reduce(lt, N)
                                 total_time = queries_info[queryid]['Time(ms)']
-                                entry = str(queryid) + "; " + str(total_time) + "; " + str(mem_list) + ";" + stmt
+                                entry = str(queryid) + "; " + str(total_time) + "; " + str(mem_list) + "; " + stmt
                                 with open(output_file_csv, 'a') as fout:
                                     fout.write(entry + '\n')
                                 print(f"write queryid {queryid} to {output_file_csv}")
