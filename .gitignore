@@ -6,3 +6,4 @@ plans/
 tests/
 tpch_data/
 *.zip
+workloads/

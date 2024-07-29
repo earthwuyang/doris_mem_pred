@@ -7,7 +7,7 @@ from torch.utils.data import random_split
 from tqdm import tqdm
 
 dataset = PlanDataset()
-dataset.process()  
+# dataset.process()  # process will be automatically called in the dataloader ?
 
 train_size = int(0.8 * len(dataset))
 test_size = len(dataset) - train_size
@@ -19,7 +19,7 @@ train_dataset, test_dataset = random_split(
 print(f"train_dataset len {len(train_dataset)}")
 print(f"test_dataset len {len(test_dataset)}")
 
-batch_size = 16
+batch_size = 1
 num_epochs = 1000
 train_dataset = torch.utils.data.DataLoader(train_dataset, batch_size=batch_size, shuffle=True, collate_fn=plan2graph)
 test_dataset = torch.utils.data.DataLoader(test_dataset, batch_size=batch_size, shuffle=True, collate_fn=plan2graph)
@@ -56,7 +56,7 @@ for epoch in range(num_epochs):
         loss.backward()
         optimizer.step()
         epoch_loss += loss.item()
-        if i % 1 == 0:
+        if i % 100 == 0:
             print('Epoch: ', epoch, 'Iter: ', i, 'Loss: ', loss.item())
 
     # print('Epoch ', epoch, 'Mean Loss: ', epoch_loss/len(trainset))

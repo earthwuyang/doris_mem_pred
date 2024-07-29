@@ -104,7 +104,7 @@ class PlanNet(nn.Module):
         output = self.treelstm(graph, features, h, c)
         # print(f"output: {output}")
         mean_output = torch.mean(output).unsqueeze(0)
-        print(f"mean_output: {mean_output.shape}, cost: {cost.shape}, features: {features.shape}")
+        # print(f"mean_output: {mean_output.shape}, cost: {cost.shape}, features: {features.shape}")
         cat_tensor = torch.cat([mean_output, cost])
         output = self.fc(cat_tensor)
         # print(f"final output: {output}")
