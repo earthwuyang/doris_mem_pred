@@ -20,11 +20,14 @@ def plan2graph(batch):
         costs.append(cost)
         labels.append(label)
 
+    root_node_indexes = [0]
+    for g in graphs[:-1]:
+        root_node_indexes.append(g.number_of_nodes())
     graphs = dgl.batch(graphs)
 
     costs = torch.FloatTensor(costs)
     labels = torch.FloatTensor(labels)
-    return graphs, costs, labels
+    return graphs, costs, labels, root_node_indexes
 
 class PlanDataset(DGLDataset):
     def __init__(self):

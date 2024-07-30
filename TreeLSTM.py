@@ -50,7 +50,8 @@ class TreeLSTM(nn.Module):
         super(TreeLSTM, self).__init__()
         self.x_size = x_size
         self.dropout = nn.Dropout(dropout)
-        self.linear = nn.Linear(h_size, 1)
+        self.linear = nn.Linear(h_size, h_size)
+        self.relu = nn.ReLU()
         self.cell = TreeLSTMCell(x_size, h_size)
 
     def forward(self, graph, features, h, c):
@@ -88,6 +89,7 @@ class TreeLSTM(nn.Module):
         h = self.dropout(g.ndata.pop('h'))
 
         logits = self.linear(h)
+        logits = self.relu(logits)
         return logits
     
 
@@ -97,16 +99,23 @@ class PlanNet(nn.Module):
                  h_size,
                  dropout):
         super(PlanNet, self).__init__()
+        self.x_size = x_size
+        self.h_size = h_size
         self.treelstm = TreeLSTM(x_size, h_size, dropout)
-        self.fc = nn.Linear(2, 1)
+        self.fc = nn.Linear(self.h_size + 1, 1)
+        self.relu = nn.ReLU()
 
-    def forward(self, graph, features, h, c, cost):
+    def forward(self, graph, features, h, c, cost, root_node_indexes):
+        # print(f"graph: {graph}, features: {features.shape}, h: {h.shape}, c: {c.shape}, cost: {cost.shape}")
         output = self.treelstm(graph, features, h, c)
-        # print(f"output: {output}")
-        mean_output = torch.mean(output).unsqueeze(0)
-        # print(f"mean_output: {mean_output.shape}, cost: {cost.shape}, features: {features.shape}")
-        cat_tensor = torch.cat([mean_output, cost])
+        # print(f"output: {output.shape}") # [358,h_size]
+        root_node_features = output[root_node_indexes]
+        # print(f"root_node_features {root_node_features.shape}") # [batch_size, h_size]
+        # print(f"cost: {cost.shape}, features: {features.shape}")  # cost: torch.Size([16]), features: torch.Size([385, 4])
+        cat_tensor = torch.hstack([root_node_features, cost.unsqueeze(1)])
+        
         output = self.fc(cat_tensor)
+        # output = self.relu(output)
         # print(f"final output: {output}")
   
         return output

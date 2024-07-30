@@ -7,3 +7,5 @@ tests/
 tpch_data/
 *.zip
 workloads/
+*.pth
+checkpoints/
