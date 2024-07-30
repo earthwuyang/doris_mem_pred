@@ -12,8 +12,9 @@ def Qerror(output, memory): # meandian Q-Error
         count += max(output[i], memory[i]) / (min(output[i], memory[i]) + 1e-10 )
     return count/len(output)
 
-dataset = PlanDataset()
-# dataset.process()  # process will be automatically called in the dataloader ?
+dataset = PlanDataset(output_file_csv=f'/home/wuy/DB/doris_mem_pred/tpch_data/query_mem_data_tpch_sf100.csv',
+                    output_plan_dir=f"/home/wuy/DB/doris_mem_pred/tpch_data/plans"
+                    )
 
 train_size = int(0.8 * len(dataset))
 test_size = len(dataset) - train_size

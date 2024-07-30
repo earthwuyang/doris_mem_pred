@@ -3,9 +3,7 @@ import dgl
 from dgl.data import DGLDataset
 import torch
 import os
-
-output_file_csv=f'/home/wuy/DB/doris_mem_pred/tpch_data/query_mem_data_tpch_sf100.csv'
-output_plan_dir=f"/home/wuy/DB/doris_mem_pred/tpch_data/plans"
+import pandas as pd
 
 
 
@@ -30,8 +28,11 @@ def plan2graph(batch):
     return graphs, costs, labels, root_node_indexes
 
 class PlanDataset(DGLDataset):
-    def __init__(self):
+    def __init__(self, output_file_csv, output_plan_dir):
+        self.output_file_csv = output_file_csv
+        self.output_plan_dir = output_plan_dir
         super().__init__(name='plan')
+        
 
 
     def process(self):
@@ -43,10 +44,11 @@ class PlanDataset(DGLDataset):
 
         self.labels = []
         self.costs = []
-        import pandas as pd
+        
 
         # data_file='data/query_mem_data_tpch_sf100.csv'
-        data_file=output_file_csv
+
+        data_file = self.output_file_csv
         # data=pd.read_csv(data_file, sep=';', on_bad_lines='warn')
         data=pd.read_csv(data_file, sep=';', skiprows= lambda x: x in [978, 1968, 2202, 3129, 4259])
         print(f"processing {len(data)} queries")
@@ -55,7 +57,7 @@ class PlanDataset(DGLDataset):
             time = float(line[1]['time'])
             mem_list = eval(line[1]['mem_list'])
             stmt = line[1]['stmt']
-            with open(os.path.join(output_plan_dir, f'{queryid}.txt'), 'r') as f:
+            with open(os.path.join(self.output_plan_dir, f'{queryid}.txt'), 'r') as f:
                 plan = f.read()
             plan=plan.strip()
 

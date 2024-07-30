@@ -9,3 +9,5 @@ tpch_data/
 workloads/
 *.pth
 checkpoints/
+*.txt
+logs/
