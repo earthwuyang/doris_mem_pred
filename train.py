@@ -26,8 +26,8 @@ train_dataset, test_dataset = random_split(
 print(f"train_dataset len {len(train_dataset)}")
 print(f"test_dataset len {len(test_dataset)}")
 
-batch_size = 5120
-num_epochs = 1000
+batch_size = 10240
+num_epochs = 10000
 train_dataset = torch.utils.data.DataLoader(train_dataset, batch_size=batch_size, shuffle=True, collate_fn=plan2graph)
 test_dataset = torch.utils.data.DataLoader(test_dataset, batch_size=batch_size, shuffle=True, collate_fn=plan2graph)
 trainset = train_dataset
@@ -36,12 +36,14 @@ testset = test_dataset
 x_size = 4
 h_size = 4
 dropout = 0.5
+
+
 model = PlanNet(x_size, h_size, dropout)
 
 model.load_state_dict(torch.load('plan_net.pth'))
 
 # optimizer = optim.SGD(model.parameters(), lr=0.001)
-optimizer = optim.Adam(model.parameters(), lr=0.001)
+optimizer = optim.Adam(model.parameters(), lr=0.00001)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model.to(device)
@@ -100,11 +102,10 @@ for epoch in range(num_epochs):
             loss = loss_fn(output, memory)
             qerror = Qerror(output, memory)
             val_epoch_loss += loss.item()
-        print('Epoch ', epoch, 'Train Loss: ', epoch_loss/len(trainset), ' Validation Loss: ', val_epoch_loss/len(testset), 'QError: ', qerror)
+        print('Epoch ', epoch, 'Train Loss: ', epoch_loss/len(trainset), ' Validation Loss: ', val_epoch_loss/len(testset), 'QError: ', qerror.item())
     torch.save(model.state_dict(), 'plan_net.pth')
     # print(f"Epoch {epoch} state dict saved to plan_net.pth")
 
 
-torch.save(model.state_dict(), 'plan_net.pth')
 
 

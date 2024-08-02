@@ -6,16 +6,22 @@ import torch.optim as optim
 from torch.utils.data import random_split
 from tqdm import tqdm
 
+# def Qerror(output, memory): # meandian Q-Error
+#     count = 0 
+#     # output = torch.exp(output)
+#     # memory = torch.exp(memory)
+#     for i in range(len(output)):
+#         count += max(output[i], memory[i]) / (min(output[i], memory[i]) + 1e-10 )
+#     return count/len(output)
+
 def Qerror(output, memory): # meandian Q-Error
     count = 0 
-    # output = torch.exp(output)
-    # memory = torch.exp(memory)
     for i in range(len(output)):
-        count += max(output[i], memory[i]) / (min(output[i], memory[i]) + 1e-10 )
+        count += output[i] / memory[i]
     return count/len(output)
 
-dataset = PlanDataset(output_file_csv=f'/home/wuy/DB/doris_mem_pred/tpch_data/query_mem_data_tpch_sf100.csv',
-                    output_plan_dir=f"/home/wuy/DB/doris_mem_pred/tpch_data/plans"
+dataset = PlanDataset(output_file_csv=f'/home/wuy/DB/doris_mem_pred/tpcds_data/query_mem_data_tpcds_sf100.csv',
+                    output_plan_dir=f"/home/wuy/DB/doris_mem_pred/tpcds_data/plans"
                     )
 
 test_dataset = dataset
@@ -31,7 +37,8 @@ h_size = 4
 dropout = 0.5
 model = PlanNet(x_size, h_size, dropout)
 
-model.load_state_dict(torch.load('plan_net.pth'))
+# model.load_state_dict(torch.load('plan_net.pth'))
+model.load_state_dict(torch.load('checkpoints/plan_net_10233_1.1048.pth'))
 
 # optimizer = optim.SGD(model.parameters(), lr=0.001)
 optimizer = optim.Adam(model.parameters(), lr=0.001)
@@ -60,6 +67,7 @@ with torch.no_grad():
         c = c.to(device)
 
         output = model(g, g.ndata['feat'], h, c, cost, root_node_indexes)
+        print(f"first 10, output: {output[:10]}, memory: {memory[:10]}")
         loss = loss_fn(output, memory)
         qerror = Qerror(output, memory)
         val_epoch_loss += loss.item()
