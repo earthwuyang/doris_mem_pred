@@ -1,0 +1,2126 @@
+nohup: ignoring input
+processing 10233 queries
+Collecting features for encoder fitting...
+  0%|          | 0/10233 [00:00<?, ?it/s]  1%|          | 99/10233 [00:00<00:10, 981.24it/s]  2%|▏         | 203/10233 [00:00<00:09, 1014.73it/s]  3%|▎         | 305/10233 [00:00<00:09, 1011.90it/s]  4%|▍         | 407/10233 [00:00<00:09, 1007.59it/s]  5%|▍         | 511/10233 [00:00<00:09, 1017.02it/s]  6%|▌         | 613/10233 [00:00<00:09, 1015.91it/s]  7%|▋         | 716/10233 [00:00<00:09, 1019.08it/s]  8%|▊         | 818/10233 [00:00<00:09, 1015.51it/s]  9%|▉         | 923/10233 [00:00<00:09, 1024.75it/s] 10%|█         | 1026/10233 [00:01<00:11, 786.51it/s] 11%|█         | 1132/10233 [00:01<00:10, 854.74it/s] 12%|█▏        | 1234/10233 [00:01<00:10, 898.37it/s] 13%|█▎        | 1335/10233 [00:01<00:09, 928.67it/s] 14%|█▍        | 1436/10233 [00:01<00:09, 950.55it/s] 15%|█▌        | 1541/10233 [00:01<00:08, 977.01it/s] 16%|█▌        | 1645/10233 [00:01<00:08, 993.33it/s] 17%|█▋        | 1750/10233 [00:01<00:08, 1009.43it/s] 18%|█▊        | 1853/10233 [00:01<00:08, 1010.58it/s] 19%|█▉        | 1955/10233 [00:02<00:08, 1004.88it/s] 20%|██        | 2058/10233 [00:02<00:08, 1009.79it/s] 21%|██        | 2160/10233 [00:02<00:08, 1007.33it/s] 22%|██▏       | 2262/10233 [00:02<00:07, 1010.02it/s] 23%|██▎       | 2365/10233 [00:02<00:07, 1015.29it/s] 24%|██▍       | 2469/10233 [00:02<00:07, 1021.80it/s] 25%|██▌       | 2572/10233 [00:02<00:07, 1014.33it/s] 26%|██▌       | 2679/10233 [00:02<00:07, 1029.67it/s] 27%|██▋       | 2783/10233 [00:02<00:07, 1021.65it/s] 28%|██▊       | 2886/10233 [00:02<00:07, 1004.75it/s] 29%|██▉       | 2987/10233 [00:03<00:10, 722.15it/s]  30%|███       | 3094/10233 [00:03<00:08, 801.82it/s] 31%|███▏      | 3198/10233 [00:03<00:08, 859.94it/s] 32%|███▏      | 3302/10233 [00:03<00:07, 905.62it/s] 33%|███▎      | 3406/10233 [00:03<00:07, 939.18it/s] 34%|███▍      | 3508/10233 [00:03<00:07, 960.55it/s] 35%|███▌      | 3610/10233 [00:03<00:06, 976.41it/s] 36%|███▋      | 3716/10233 [00:03<00:06, 998.43it/s] 37%|███▋      | 3820/10233 [00:03<00:06, 1008.11it/s] 38%|███▊      | 3924/10233 [00:04<00:06, 1015.79it/s] 39%|███▉      | 4027/10233 [00:04<00:06, 1008.78it/s] 40%|████      | 4133/10233 [00:04<00:05, 1021.71it/s] 41%|████▏     | 4238/10233 [00:04<00:05, 1029.64it/s] 42%|████▏     | 4345/10233 [00:04<00:05, 1040.15it/s] 43%|████▎     | 4450/10233 [00:04<00:05, 1030.54it/s] 45%|████▍     | 4554/10233 [00:04<00:05, 1032.91it/s] 46%|████▌     | 4658/10233 [00:04<00:05, 1025.85it/s] 47%|████▋     | 4765/10233 [00:04<00:05, 1038.01it/s] 48%|████▊     | 4869/10233 [00:04<00:05, 1035.87it/s] 49%|████▊     | 4973/10233 [00:05<00:05, 1031.31it/s] 50%|████▉     | 5077/10233 [00:05<00:05, 1030.48it/s] 51%|█████     | 5181/10233 [00:05<00:04, 1022.73it/s] 52%|█████▏    | 5286/10233 [00:05<00:04, 1029.65it/s] 53%|█████▎    | 5389/10233 [00:05<00:07, 685.29it/s]  54%|█████▎    | 5495/10233 [00:05<00:06, 767.32it/s] 55%|█████▍    | 5600/10233 [00:05<00:05, 833.31it/s] 56%|█████▌    | 5702/10233 [00:05<00:05, 879.65it/s] 57%|█████▋    | 5808/10233 [00:06<00:04, 926.51it/s] 58%|█████▊    | 5911/10233 [00:06<00:04, 953.98it/s] 59%|█████▉    | 6016/10233 [00:06<00:04, 980.35it/s] 60%|█████▉    | 6119/10233 [00:06<00:04, 992.89it/s] 61%|██████    | 6221/10233 [00:06<00:04, 1000.29it/s] 62%|██████▏   | 6324/10233 [00:06<00:03, 1008.80it/s] 63%|██████▎   | 6430/10233 [00:06<00:03, 1022.89it/s] 64%|██████▍   | 6534/10233 [00:06<00:03, 1023.94it/s] 65%|██████▍   | 6640/10233 [00:06<00:03, 1031.65it/s] 66%|██████▌   | 6748/10233 [00:06<00:03, 1042.74it/s] 67%|██████▋   | 6854/10233 [00:07<00:03, 1045.01it/s] 68%|██████▊   | 6959/10233 [00:07<00:03, 1033.60it/s] 69%|██████▉   | 7063/10233 [00:07<00:03, 1026.89it/s] 70%|███████   | 7167/10233 [00:07<00:02, 1029.91it/s] 71%|███████   | 7271/10233 [00:07<00:02, 1025.73it/s] 72%|███████▏  | 7374/10233 [00:07<00:02, 1018.27it/s] 73%|███████▎  | 7478/10233 [00:07<00:02, 1022.41it/s] 74%|███████▍  | 7584/10233 [00:07<00:02, 1031.60it/s] 75%|███████▌  | 7688/10233 [00:07<00:02, 1023.40it/s] 76%|███████▌  | 7793/10233 [00:07<00:02, 1030.33it/s] 77%|███████▋  | 7897/10233 [00:08<00:02, 1025.26it/s] 78%|███████▊  | 8000/10233 [00:08<00:02, 1025.01it/s] 79%|███████▉  | 8103/10233 [00:08<00:02, 1021.69it/s] 80%|████████  | 8206/10233 [00:08<00:01, 1021.71it/s] 81%|████████  | 8309/10233 [00:08<00:02, 652.95it/s]  82%|████████▏ | 8408/10233 [00:08<00:02, 723.68it/s] 83%|████████▎ | 8510/10233 [00:08<00:02, 791.17it/s] 84%|████████▍ | 8614/10233 [00:08<00:01, 851.87it/s] 85%|████████▌ | 8718/10233 [00:09<00:01, 901.11it/s] 86%|████████▌ | 8820/10233 [00:09<00:01, 933.05it/s] 87%|████████▋ | 8922/10233 [00:09<00:01, 956.13it/s] 88%|████████▊ | 9025/10233 [00:09<00:01, 976.19it/s] 89%|████████▉ | 9126/10233 [00:09<00:01, 985.80it/s] 90%|█████████ | 9227/10233 [00:09<00:01, 986.73it/s] 91%|█████████ | 9328/10233 [00:09<00:00, 988.92it/s] 92%|█████████▏| 9432/10233 [00:09<00:00, 1002.88it/s] 93%|█████████▎| 9537/10233 [00:09<00:00, 1015.82it/s] 94%|█████████▍| 9640/10233 [00:09<00:00, 1017.88it/s] 95%|█████████▌| 9743/10233 [00:10<00:00, 1013.88it/s] 96%|█████████▌| 9845/10233 [00:10<00:00, 1002.17it/s] 97%|█████████▋| 9950/10233 [00:10<00:00, 1015.76it/s] 98%|█████████▊| 10056/10233 [00:10<00:00, 1028.24it/s] 99%|█████████▉| 10159/10233 [00:10<00:00, 1025.53it/s]100%|██████████| 10233/10233 [00:10<00:00, 967.77it/s] 
+Fitting OneHotEncoder and StandardScaler...
+Creating Data objects with consistent feature dimensions...
+  0%|          | 0/10 [00:00<?, ?it/s] 20%|██        | 2/10 [00:00<00:00, 12.52it/s] 40%|████      | 4/10 [00:00<00:00, 13.00it/s] 60%|██████    | 6/10 [00:00<00:00, 14.04it/s] 80%|████████  | 8/10 [00:00<00:00, 14.09it/s]100%|██████████| 10/10 [00:00<00:00, 14.49it/s]100%|██████████| 10/10 [00:00<00:00, 14.07it/s]Using device: cuda
+Starting grid search over hyperparameters...
+
+Testing combination 1/9:
+Learning Rate: 0.01, Weight Decay: 0.0001, Hidden Dim: 64, Heads: 2
+Epoch 1/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779153300008992768.0000, Median Qerror on Validation Set: 2796085504.0000
+Improved validation q-error to 2796085504.0000
+Epoch 2/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779153300008992768.0000, Median Qerror on Validation Set: 542595968.0000
+Improved validation q-error to 542595968.0000
+Epoch 3/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779153300008992768.0000, Median Qerror on Validation Set: 147102256.0000
+Improved validation q-error to 147102256.0000
+Epoch 4/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779153300008992768.0000, Median Qerror on Validation Set: 50594520.0000
+Improved validation q-error to 50594520.0000
+Epoch 5/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779153300008992768.0000, Median Qerror on Validation Set: 20520758.0000
+Improved validation q-error to 20520758.0000
+Epoch 6/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779153025131085824.0000, Median Qerror on Validation Set: 9388380.0000
+Improved validation q-error to 9388380.0000
+Epoch 7/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779152887692132352.0000, Median Qerror on Validation Set: 4704392.5000
+Improved validation q-error to 4704392.5000
+Epoch 8/1000, Training Loss: 8659589753131237376.0000
+Validation Loss: 1779152475375271936.0000, Median Qerror on Validation Set: 2517248.0000
+Improved validation q-error to 2517248.0000
+Epoch 9/1000, Training Loss: 8659589753131237376.0000
+Validation Loss: 1779151788180504576.0000, Median Qerror on Validation Set: 1421124.8750
+Improved validation q-error to 1421124.8750
+Epoch 10/1000, Training Loss: 8659588653619609600.0000
+Validation Loss: 1779150688668876800.0000, Median Qerror on Validation Set: 838956.7500
+Improved validation q-error to 838956.7500
+Epoch 11/1000, Training Loss: 8659587554107981824.0000
+Validation Loss: 1779148901962481664.0000, Median Qerror on Validation Set: 513820.1875
+Improved validation q-error to 513820.1875
+Epoch 12/1000, Training Loss: 8659585355084726272.0000
+Validation Loss: 1779146428061319168.0000, Median Qerror on Validation Set: 324798.0625
+Improved validation q-error to 324798.0625
+Epoch 13/1000, Training Loss: 8659580957038215168.0000
+Validation Loss: 1779142717209575424.0000, Median Qerror on Validation Set: 211008.1406
+Improved validation q-error to 211008.1406
+Epoch 14/1000, Training Loss: 8659576558991704064.0000
+Validation Loss: 1779137357090390016.0000, Median Qerror on Validation Set: 140403.6094
+Improved validation q-error to 140403.6094
+Epoch 15/1000, Training Loss: 8659569412166123520.0000
+Validation Loss: 1779129797947949056.0000, Median Qerror on Validation Set: 95415.2031
+Improved validation q-error to 95415.2031
+Epoch 16/1000, Training Loss: 8659557867294031872.0000
+Validation Loss: 1779119215148531712.0000, Median Qerror on Validation Set: 66070.8438
+Improved validation q-error to 66070.8438
+Epoch 17/1000, Training Loss: 8659544123398684672.0000
+Validation Loss: 1779105058936324096.0000, Median Qerror on Validation Set: 46529.0312
+Improved validation q-error to 46529.0312
+Epoch 18/1000, Training Loss: 8659524881945198592.0000
+Validation Loss: 1779085817482838016.0000, Median Qerror on Validation Set: 33269.7461
+Improved validation q-error to 33269.7461
+Epoch 19/1000, Training Loss: 8659499043421945856.0000
+Validation Loss: 1779060116398538752.0000, Median Qerror on Validation Set: 24120.3750
+Improved validation q-error to 24120.3750
+Epoch 20/1000, Training Loss: 8659464408805670912.0000
+Validation Loss: 1779026168977031168.0000, Median Qerror on Validation Set: 17709.6387
+Improved validation q-error to 17709.6387
+Epoch 21/1000, Training Loss: 8659417129805676544.0000
+Validation Loss: 1778982325950873600.0000, Median Qerror on Validation Set: 13154.5830
+Improved validation q-error to 13154.5830
+Epoch 22/1000, Training Loss: 8659358305933590528.0000
+Validation Loss: 1778925426224136192.0000, Median Qerror on Validation Set: 9876.3086
+Improved validation q-error to 9876.3086
+Epoch 23/1000, Training Loss: 8659280240608018432.0000
+Validation Loss: 1778852858456702976.0000, Median Qerror on Validation Set: 7488.8262
+Improved validation q-error to 7488.8262
+Epoch 24/1000, Training Loss: 8659181284561518592.0000
+Validation Loss: 1778760636918923264.0000, Median Qerror on Validation Set: 5731.0181
+Improved validation q-error to 5731.0181
+Epoch 25/1000, Training Loss: 8659055940235952128.0000
+Validation Loss: 1778644501003239424.0000, Median Qerror on Validation Set: 4423.5972
+Improved validation q-error to 4423.5972
+Epoch 26/1000, Training Loss: 8658896511049924608.0000
+Validation Loss: 1778499502907326464.0000, Median Qerror on Validation Set: 3441.9299
+Improved validation q-error to 3441.9299
+Epoch 27/1000, Training Loss: 8658700248224366592.0000
+Validation Loss: 1778319320439324672.0000, Median Qerror on Validation Set: 2698.3142
+Improved validation q-error to 2698.3142
+Epoch 28/1000, Training Loss: 8658453957619744768.0000
+Validation Loss: 1778096944212606976.0000, Median Qerror on Validation Set: 2130.3459
+Improved validation q-error to 2130.3459
+Epoch 29/1000, Training Loss: 8658151042166292480.0000
+Validation Loss: 1777824402767872000.0000, Median Qerror on Validation Set: 1693.1528
+Improved validation q-error to 1693.1528
+Epoch 30/1000, Training Loss: 8657778857480290304.0000
+Validation Loss: 1777491937939423232.0000, Median Qerror on Validation Set: 1354.1564
+Improved validation q-error to 1354.1564
+Epoch 31/1000, Training Loss: 8657325308933832704.0000
+Validation Loss: 1777088417172029440.0000, Median Qerror on Validation Set: 1089.4827
+Improved validation q-error to 1089.4827
+Epoch 32/1000, Training Loss: 8656773903852503040.0000
+Validation Loss: 1776601333520924672.0000, Median Qerror on Validation Set: 881.4869
+Improved validation q-error to 881.4869
+Epoch 33/1000, Training Loss: 8656110348585140224.0000
+Validation Loss: 1776016530773901312.0000, Median Qerror on Validation Set: 717.0212
+Improved validation q-error to 717.0212
+Epoch 34/1000, Training Loss: 8655312103143374848.0000
+Validation Loss: 1775317378817589248.0000, Median Qerror on Validation Set: 586.2124
+Improved validation q-error to 586.2124
+Epoch 35/1000, Training Loss: 8654357727050465280.0000
+Validation Loss: 1774485323393269760.0000, Median Qerror on Validation Set: 481.5933
+Improved validation q-error to 481.5933
+Epoch 36/1000, Training Loss: 8653221381783158784.0000
+Validation Loss: 1773499198902108160.0000, Median Qerror on Validation Set: 397.4767
+Improved validation q-error to 397.4767
+Epoch 37/1000, Training Loss: 8651875579550760960.0000
+Validation Loss: 1772335090966200320.0000, Median Qerror on Validation Set: 329.5039
+Improved validation q-error to 329.5039
+Epoch 38/1000, Training Loss: 8650284586225369088.0000
+Validation Loss: 1770966886184386560.0000, Median Qerror on Validation Set: 274.3130
+Improved validation q-error to 274.3130
+Epoch 39/1000, Training Loss: 8648415966213963776.0000
+Validation Loss: 1769364622864809984.0000, Median Qerror on Validation Set: 229.2943
+Improved validation q-error to 229.2943
+Epoch 40/1000, Training Loss: 8646225189295620096.0000
+Validation Loss: 1767495453097590784.0000, Median Qerror on Validation Set: 192.4097
+Improved validation q-error to 192.4097
+Epoch 41/1000, Training Loss: 8643668824761040896.0000
+Validation Loss: 1765322268365291520.0000, Median Qerror on Validation Set: 162.0602
+Improved validation q-error to 162.0602
+Epoch 42/1000, Training Loss: 8640694645807906816.0000
+Validation Loss: 1762804249298731008.0000, Median Qerror on Validation Set: 136.9862
+Improved validation q-error to 136.9862
+Epoch 43/1000, Training Loss: 8637247676854829056.0000
+Validation Loss: 1759896315921170432.0000, Median Qerror on Validation Set: 116.1896
+Improved validation q-error to 116.1896
+Epoch 44/1000, Training Loss: 8633265245739024384.0000
+Validation Loss: 1756549265087266816.0000, Median Qerror on Validation Set: 98.8762
+Improved validation q-error to 98.8762
+Epoch 45/1000, Training Loss: 8628678083227942912.0000
+Validation Loss: 1752708808410398720.0000, Median Qerror on Validation Set: 84.4107
+Improved validation q-error to 84.4107
+Epoch 46/1000, Training Loss: 8623412522042523648.0000
+Validation Loss: 1748315847140573184.0000, Median Qerror on Validation Set: 72.2826
+Improved validation q-error to 72.2826
+Epoch 47/1000, Training Loss: 8617385549054869504.0000
+Validation Loss: 1743306747042332672.0000, Median Qerror on Validation Set: 62.0804
+Improved validation q-error to 62.0804
+Epoch 48/1000, Training Loss: 8610508103823130624.0000
+Validation Loss: 1737611964005220352.0000, Median Qerror on Validation Set: 53.4706
+Improved validation q-error to 53.4706
+Epoch 49/1000, Training Loss: 8602683429324062720.0000
+Validation Loss: 1731157280994361344.0000, Median Qerror on Validation Set: 46.1821
+Improved validation q-error to 46.1821
+Epoch 50/1000, Training Loss: 8593805972441399296.0000
+Validation Loss: 1723862708538834944.0000, Median Qerror on Validation Set: 39.9935
+Improved validation q-error to 39.9935
+Epoch 51/1000, Training Loss: 8583765232256548864.0000
+Validation Loss: 1715644133999116288.0000, Median Qerror on Validation Set: 34.7237
+Improved validation q-error to 34.7237
+Epoch 52/1000, Training Loss: 8572440812246269952.0000
+Validation Loss: 1706411259982774272.0000, Median Qerror on Validation Set: 30.2236
+Improved validation q-error to 30.2236
+Epoch 53/1000, Training Loss: 8559703519794298880.0000
+Validation Loss: 1696070215684587520.0000, Median Qerror on Validation Set: 26.3703
+Improved validation q-error to 26.3703
+Epoch 54/1000, Training Loss: 8545418664726233088.0000
+Validation Loss: 1684522319935963136.0000, Median Qerror on Validation Set: 23.0622
+Improved validation q-error to 23.0622
+Epoch 55/1000, Training Loss: 8529442211018833920.0000
+Validation Loss: 1671665455594471424.0000, Median Qerror on Validation Set: 20.2146
+Improved validation q-error to 20.2146
+Epoch 56/1000, Training Loss: 8511628473381421056.0000
+Validation Loss: 1657394069543845888.0000, Median Qerror on Validation Set: 17.7573
+Improved validation q-error to 17.7573
+Epoch 57/1000, Training Loss: 8491822420674478080.0000
+Validation Loss: 1641599722449797120.0000, Median Qerror on Validation Set: 15.6313
+Improved validation q-error to 15.6313
+Epoch 58/1000, Training Loss: 8469862974444535808.0000
+Validation Loss: 1624173425222221824.0000, Median Qerror on Validation Set: 13.7876
+Improved validation q-error to 13.7876
+Epoch 59/1000, Training Loss: 8445593454284636160.0000
+Validation Loss: 1605009899622760448.0000, Median Qerror on Validation Set: 12.1851
+Improved validation q-error to 12.1851
+Epoch 60/1000, Training Loss: 8418850582718054400.0000
+Validation Loss: 1584011701433401344.0000, Median Qerror on Validation Set: 10.7896
+Improved validation q-error to 10.7896
+Epoch 61/1000, Training Loss: 8389476030070390784.0000
+Validation Loss: 1561092518991364096.0000, Median Qerror on Validation Set: 9.5720
+Improved validation q-error to 9.5720
+Epoch 62/1000, Training Loss: 8357316414469570560.0000
+Validation Loss: 1536179097334448128.0000, Median Qerror on Validation Set: 8.5078
+Improved validation q-error to 8.5078
+Epoch 63/1000, Training Loss: 8322229349159796736.0000
+Validation Loss: 1509216048564404224.0000, Median Qerror on Validation Set: 7.5758
+Improved validation q-error to 7.5758
+Epoch 64/1000, Training Loss: 8284089489815502848.0000
+Validation Loss: 1480169287820771328.0000, Median Qerror on Validation Set: 6.7581
+Improved validation q-error to 6.7581
+Epoch 65/1000, Training Loss: 8242787984785539072.0000
+Validation Loss: 1449035241690759168.0000, Median Qerror on Validation Set: 6.0394
+Improved validation q-error to 6.0394
+Epoch 66/1000, Training Loss: 8198246768744333312.0000
+Validation Loss: 1415847445279014912.0000, Median Qerror on Validation Set: 5.5101
+Improved validation q-error to 5.5101
+Epoch 67/1000, Training Loss: 8150425709517471744.0000
+Validation Loss: 1380685475739598848.0000, Median Qerror on Validation Set: 5.0609
+Improved validation q-error to 5.0609
+Epoch 68/1000, Training Loss: 8099328655395651584.0000
+Validation Loss: 1343686222270169088.0000, Median Qerror on Validation Set: 4.6774
+Improved validation q-error to 4.6774
+Epoch 69/1000, Training Loss: 8045019927809097728.0000
+Validation Loss: 1305054331472445440.0000, Median Qerror on Validation Set: 4.3526
+Improved validation q-error to 4.3526
+Epoch 70/1000, Training Loss: 7987633117420584960.0000
+Validation Loss: 1265076913320230912.0000, Median Qerror on Validation Set: 4.0802
+Improved validation q-error to 4.0802
+Epoch 71/1000, Training Loss: 7927389775823110144.0000
+Validation Loss: 1224137422493712384.0000, Median Qerror on Validation Set: 3.8551
+Improved validation q-error to 3.8551
+Epoch 72/1000, Training Loss: 7864610410656169984.0000
+Validation Loss: 1182731601298063360.0000, Median Qerror on Validation Set: 3.6730
+Improved validation q-error to 3.6730
+Epoch 73/1000, Training Loss: 7799741423640641536.0000
+Validation Loss: 1141485003130011648.0000, Median Qerror on Validation Set: 3.5299
+Improved validation q-error to 3.5299
+Epoch 74/1000, Training Loss: 7733361157892734976.0000
+Validation Loss: 1101166598934233088.0000, Median Qerror on Validation Set: 3.4228
+Improved validation q-error to 3.4228
+Epoch 75/1000, Training Loss: 7666212333517012992.0000
+Validation Loss: 1062701490306547712.0000, Median Qerror on Validation Set: 3.3488
+Improved validation q-error to 3.3488
+Epoch 76/1000, Training Loss: 7599207545164529664.0000
+Validation Loss: 1027168847909617664.0000, Median Qerror on Validation Set: 3.3053
+Improved validation q-error to 3.3053
+Epoch 77/1000, Training Loss: 7533445754707247104.0000
+Validation Loss: 995787205504925696.0000, Median Qerror on Validation Set: 3.2901
+Improved validation q-error to 3.2901
+Epoch 78/1000, Training Loss: 7470214490261291008.0000
+Validation Loss: 969879619178070016.0000, Median Qerror on Validation Set: 3.3008
+No improvement in q-error for 1 epochs
+Epoch 79/1000, Training Loss: 7410971154489278464.0000
+Validation Loss: 950814156271910912.0000, Median Qerror on Validation Set: 3.3352
+No improvement in q-error for 2 epochs
+Epoch 80/1000, Training Loss: 7357301243158462464.0000
+Validation Loss: 939904595742687232.0000, Median Qerror on Validation Set: 3.3906
+No improvement in q-error for 3 epochs
+Epoch 81/1000, Training Loss: 7310834782257020928.0000
+Validation Loss: 938261238176022528.0000, Median Qerror on Validation Set: 3.4641
+No improvement in q-error for 4 epochs
+Epoch 82/1000, Training Loss: 7273106690017329152.0000
+Validation Loss: 946577119494799360.0000, Median Qerror on Validation Set: 3.5521
+No improvement in q-error for 5 epochs
+Epoch 83/1000, Training Loss: 7245358315067146240.0000
+Validation Loss: 964823995994079232.0000, Median Qerror on Validation Set: 3.6504
+No improvement in q-error for 6 epochs
+Epoch 84/1000, Training Loss: 7228240568290115584.0000
+Validation Loss: 991875899047542784.0000, Median Qerror on Validation Set: 3.7534
+No improvement in q-error for 7 epochs
+Epoch 85/1000, Training Loss: 7221449434721157120.0000
+Validation Loss: 1025197698438922240.0000, Median Qerror on Validation Set: 3.8549
+No improvement in q-error for 8 epochs
+Epoch 86/1000, Training Loss: 7223398319081390080.0000
+Validation Loss: 1060838642731188224.0000, Median Qerror on Validation Set: 3.9478
+No improvement in q-error for 9 epochs
+Epoch 87/1000, Training Loss: 7231127885824655360.0000
+Validation Loss: 1093966653198172160.0000, Median Qerror on Validation Set: 4.0252
+No improvement in q-error for 10 epochs
+Epoch 88/1000, Training Loss: 7240705181858398208.0000
+Validation Loss: 1119918013831708672.0000, Median Qerror on Validation Set: 4.0819
+No improvement in q-error for 11 epochs
+Epoch 89/1000, Training Loss: 7248117539497050112.0000
+Validation Loss: 1135353232940335104.0000, Median Qerror on Validation Set: 4.1150
+No improvement in q-error for 12 epochs
+Epoch 90/1000, Training Loss: 7250319311531671552.0000
+Validation Loss: 1138952003217522688.0000, Median Qerror on Validation Set: 4.1242
+No improvement in q-error for 13 epochs
+Epoch 91/1000, Training Loss: 7245908070881034240.0000
+Validation Loss: 1131391692545458176.0000, Median Qerror on Validation Set: 4.1118
+No improvement in q-error for 14 epochs
+Epoch 92/1000, Training Loss: 7235165842277662720.0000
+Validation Loss: 1114787280259645440.0000, Median Qerror on Validation Set: 4.0814
+No improvement in q-error for 15 epochs
+Epoch 93/1000, Training Loss: 7219595108360912896.0000
+Validation Loss: 1091954409480388608.0000, Median Qerror on Validation Set: 4.0373
+No improvement in q-error for 16 epochs
+Epoch 94/1000, Training Loss: 7201269548060770304.0000
+Validation Loss: 1065767341041647616.0000, Median Qerror on Validation Set: 3.9839
+No improvement in q-error for 17 epochs
+Epoch 95/1000, Training Loss: 7182266138842103808.0000
+Validation Loss: 1038728082371903488.0000, Median Qerror on Validation Set: 3.9255
+No improvement in q-error for 18 epochs
+Epoch 96/1000, Training Loss: 7164278128611688448.0000
+Validation Loss: 1012745042059591680.0000, Median Qerror on Validation Set: 3.8657
+No improvement in q-error for 19 epochs
+Epoch 97/1000, Training Loss: 7148436365078691840.0000
+Validation Loss: 989083139512991744.0000, Median Qerror on Validation Set: 3.8072
+No improvement in q-error for 20 epochs
+Epoch 98/1000, Training Loss: 7135285656254676992.0000
+Validation Loss: 968420910845394944.0000, Median Qerror on Validation Set: 3.7523
+No improvement in q-error for 21 epochs
+Epoch 99/1000, Training Loss: 7124867783581499392.0000
+Validation Loss: 950970905398345728.0000, Median Qerror on Validation Set: 3.7026
+No improvement in q-error for 22 epochs
+Epoch 100/1000, Training Loss: 7116852343815012352.0000
+Validation Loss: 936617880609357824.0000, Median Qerror on Validation Set: 3.6590
+No improvement in q-error for 23 epochs
+Epoch 101/1000, Training Loss: 7110689031385513984.0000
+Validation Loss: 925052598833119232.0000, Median Qerror on Validation Set: 3.6219
+No improvement in q-error for 24 epochs
+Epoch 102/1000, Training Loss: 7105737930525638656.0000
+Validation Loss: 915880129236828160.0000, Median Qerror on Validation Set: 3.5915
+No improvement in q-error for 25 epochs
+Epoch 103/1000, Training Loss: 7101374518630809600.0000
+Validation Loss: 908699562393206784.0000, Median Qerror on Validation Set: 3.5676
+No improvement in q-error for 26 epochs
+Epoch 104/1000, Training Loss: 7097055636956905472.0000
+Validation Loss: 903155137571192832.0000, Median Qerror on Validation Set: 3.5500
+No improvement in q-error for 27 epochs
+Epoch 105/1000, Training Loss: 7092361821817929728.0000
+Validation Loss: 898961668942331904.0000, Median Qerror on Validation Set: 3.5382
+No improvement in q-error for 28 epochs
+Epoch 106/1000, Training Loss: 7087005550923218944.0000
+Validation Loss: 895912998076416000.0000, Median Qerror on Validation Set: 3.5320
+No improvement in q-error for 29 epochs
+Epoch 107/1000, Training Loss: 7080831793133256704.0000
+Validation Loss: 893876977419681792.0000, Median Qerror on Validation Set: 3.5308
+No improvement in q-error for 30 epochs
+Early stopping triggered at epoch 107
+Early stopping at epoch 107
+Median Qerror on Validation Set: 3.2901
+New best q-error: 3.2901 with parameters {'learning_rate': 0.01, 'weight_decay': 0.0001, 'hidden_dim': 64, 'heads': 2}
+
+Testing combination 2/9:
+Learning Rate: 0.01, Weight Decay: 0.0001, Hidden Dim: 64, Heads: 4
+Epoch 1/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779153300008992768.0000, Median Qerror on Validation Set: 1271037440.0000
+Improved validation q-error to 1271037440.0000
+Epoch 2/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779153300008992768.0000, Median Qerror on Validation Set: 121730960.0000
+Improved validation q-error to 121730960.0000
+Epoch 3/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779153300008992768.0000, Median Qerror on Validation Set: 26915844.0000
+Improved validation q-error to 26915844.0000
+Epoch 4/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779153025131085824.0000, Median Qerror on Validation Set: 8278341.0000
+Improved validation q-error to 8278341.0000
+Epoch 5/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779152612814225408.0000, Median Qerror on Validation Set: 3123092.2500
+Improved validation q-error to 3123092.2500
+Epoch 6/1000, Training Loss: 8659589753131237376.0000
+Validation Loss: 1779151788180504576.0000, Median Qerror on Validation Set: 1356096.6250
+Improved validation q-error to 1356096.6250
+Epoch 7/1000, Training Loss: 8659588653619609600.0000
+Validation Loss: 1779150001474109440.0000, Median Qerror on Validation Set: 647803.6250
+Improved validation q-error to 647803.6250
+Epoch 8/1000, Training Loss: 8659586454596354048.0000
+Validation Loss: 1779146565500272640.0000, Median Qerror on Validation Set: 334292.4688
+Improved validation q-error to 334292.4688
+Epoch 9/1000, Training Loss: 8659582056549842944.0000
+Validation Loss: 1779141205381087232.0000, Median Qerror on Validation Set: 183316.0625
+Improved validation q-error to 183316.0625
+Epoch 10/1000, Training Loss: 8659574359968448512.0000
+Validation Loss: 1779132134410158080.0000, Median Qerror on Validation Set: 105663.6484
+Improved validation q-error to 105663.6484
+Epoch 11/1000, Training Loss: 8659561165828915200.0000
+Validation Loss: 1779117978197950464.0000, Median Qerror on Validation Set: 63478.4180
+Improved validation q-error to 63478.4180
+Epoch 12/1000, Training Loss: 8659541924375429120.0000
+Validation Loss: 1779096262843301888.0000, Median Qerror on Validation Set: 39495.3203
+Improved validation q-error to 39495.3203
+Epoch 13/1000, Training Loss: 8659512787317293056.0000
+Validation Loss: 1779064514445049856.0000, Median Qerror on Validation Set: 25321.9414
+Improved validation q-error to 25321.9414
+Epoch 14/1000, Training Loss: 8659469356607995904.0000
+Validation Loss: 1779018197517729792.0000, Median Qerror on Validation Set: 16662.9922
+Improved validation q-error to 16662.9922
+Epoch 15/1000, Training Loss: 8659407234201026560.0000
+Validation Loss: 1778952639136923648.0000, Median Qerror on Validation Set: 11219.0254
+Improved validation q-error to 11219.0254
+Epoch 16/1000, Training Loss: 8659317074247548928.0000
+Validation Loss: 1778861379671818240.0000, Median Qerror on Validation Set: 7708.2256
+Improved validation q-error to 7708.2256
+Epoch 17/1000, Training Loss: 8659192279677796352.0000
+Validation Loss: 1778735760468344832.0000, Median Qerror on Validation Set: 5392.6123
+Improved validation q-error to 5392.6123
+Epoch 18/1000, Training Loss: 8659020755863863296.0000
+Validation Loss: 1778566298238713856.0000, Median Qerror on Validation Set: 3834.3506
+Improved validation q-error to 3834.3506
+Epoch 19/1000, Training Loss: 8658789308666216448.0000
+Validation Loss: 1778339661404438528.0000, Median Qerror on Validation Set: 2766.6636
+Improved validation q-error to 2766.6636
+Epoch 20/1000, Training Loss: 8658479796142997504.0000
+Validation Loss: 1778040731680636928.0000, Median Qerror on Validation Set: 2023.0831
+Improved validation q-error to 2023.0831
+Epoch 21/1000, Training Loss: 8658071327573278720.0000
+Validation Loss: 1777650267613822976.0000, Median Qerror on Validation Set: 1497.4939
+Improved validation q-error to 1497.4939
+Epoch 22/1000, Training Loss: 8657538614189621248.0000
+Validation Loss: 1777145729215627264.0000, Median Qerror on Validation Set: 1120.9257
+Improved validation q-error to 1120.9257
+Epoch 23/1000, Training Loss: 8656849220399005696.0000
+Validation Loss: 1776499216378494976.0000, Median Qerror on Validation Set: 847.7545
+Improved validation q-error to 847.7545
+Epoch 24/1000, Training Loss: 8655965762806087680.0000
+Validation Loss: 1775678018631499776.0000, Median Qerror on Validation Set: 647.3083
+Improved validation q-error to 647.3083
+Epoch 25/1000, Training Loss: 8654843711189942272.0000
+Validation Loss: 1774643790506622976.0000, Median Qerror on Validation Set: 498.6604
+Improved validation q-error to 498.6604
+Epoch 26/1000, Training Loss: 8653429739236622336.0000
+Validation Loss: 1773349940198637568.0000, Median Qerror on Validation Set: 387.3373
+Improved validation q-error to 387.3373
+Epoch 27/1000, Training Loss: 8651661724539158528.0000
+Validation Loss: 1771743416271503360.0000, Median Qerror on Validation Set: 303.2029
+Improved validation q-error to 303.2029
+Epoch 28/1000, Training Loss: 8649465999818489856.0000
+Validation Loss: 1769761821440344064.0000, Median Qerror on Validation Set: 239.0745
+Improved validation q-error to 239.0745
+Epoch 29/1000, Training Loss: 8646754054388580352.0000
+Validation Loss: 1767333275132493824.0000, Median Qerror on Validation Set: 189.8015
+Improved validation q-error to 189.8015
+Epoch 30/1000, Training Loss: 8643430780493627392.0000
+Validation Loss: 1764374901659009024.0000, Median Qerror on Validation Set: 151.6540
+Improved validation q-error to 151.6540
+Epoch 31/1000, Training Loss: 8639378530389458944.0000
+Validation Loss: 1760791043508273152.0000, Median Qerror on Validation Set: 121.9093
+Improved validation q-error to 121.9093
+Epoch 32/1000, Training Loss: 8634467561703997440.0000
+Validation Loss: 1756473261345996800.0000, Median Qerror on Validation Set: 98.5607
+Improved validation q-error to 98.5607
+Epoch 33/1000, Training Loss: 8628546141832609792.0000
+Validation Loss: 1751299509381496832.0000, Median Qerror on Validation Set: 80.1169
+Improved validation q-error to 80.1169
+Epoch 34/1000, Training Loss: 8621447145007874048.0000
+Validation Loss: 1745131798905487360.0000, Median Qerror on Validation Set: 65.4604
+Improved validation q-error to 65.4604
+Epoch 35/1000, Training Loss: 8612975957671673856.0000
+Validation Loss: 1737816748045893632.0000, Median Qerror on Validation Set: 53.7472
+Improved validation q-error to 53.7472
+Epoch 36/1000, Training Loss: 8602919274568220672.0000
+Validation Loss: 1729183932500410368.0000, Median Qerror on Validation Set: 44.3359
+Improved validation q-error to 44.3359
+Epoch 37/1000, Training Loss: 8591039051430100992.0000
+Validation Loss: 1719046710170222592.0000, Median Qerror on Validation Set: 36.7353
+Improved validation q-error to 36.7353
+Epoch 38/1000, Training Loss: 8577068656687579136.0000
+Validation Loss: 1707200846770470912.0000, Median Qerror on Validation Set: 30.5669
+Improved validation q-error to 30.5669
+Epoch 39/1000, Training Loss: 8560720568049991680.0000
+Validation Loss: 1693427814365134848.0000, Median Qerror on Validation Set: 25.5374
+Improved validation q-error to 25.5374
+Epoch 40/1000, Training Loss: 8541679775435980800.0000
+Validation Loss: 1677493416977498112.0000, Median Qerror on Validation Set: 21.4181
+Improved validation q-error to 21.4181
+Epoch 41/1000, Training Loss: 8519606529752563712.0000
+Validation Loss: 1659150539369218048.0000, Median Qerror on Validation Set: 18.0295
+Improved validation q-error to 18.0295
+Epoch 42/1000, Training Loss: 8494141290697457664.0000
+Validation Loss: 1638141071185674240.0000, Median Qerror on Validation Set: 15.2300
+Improved validation q-error to 15.2300
+Epoch 43/1000, Training Loss: 8464905276514893824.0000
+Validation Loss: 1614200030124572672.0000, Median Qerror on Validation Set: 12.9076
+Improved validation q-error to 12.9076
+Epoch 44/1000, Training Loss: 8431508710332825600.0000
+Validation Loss: 1587072192049315840.0000, Median Qerror on Validation Set: 10.9739
+Improved validation q-error to 10.9739
+Epoch 45/1000, Training Loss: 8393555218209439744.0000
+Validation Loss: 1556529958052954112.0000, Median Qerror on Validation Set: 9.3589
+Improved validation q-error to 9.3589
+Epoch 46/1000, Training Loss: 8350659971075014656.0000
+Validation Loss: 1522382150551207936.0000, Median Qerror on Validation Set: 8.0057
+Improved validation q-error to 8.0057
+Epoch 47/1000, Training Loss: 8302457381313314816.0000
+Validation Loss: 1484493117297000448.0000, Median Qerror on Validation Set: 6.8685
+Improved validation q-error to 6.8685
+Epoch 48/1000, Training Loss: 8248630789575540736.0000
+Validation Loss: 1442805546246733824.0000, Median Qerror on Validation Set: 5.9281
+Improved validation q-error to 5.9281
+Epoch 49/1000, Training Loss: 8188935004768698368.0000
+Validation Loss: 1397375237615517696.0000, Median Qerror on Validation Set: 5.2638
+Improved validation q-error to 5.2638
+Epoch 50/1000, Training Loss: 8123228739648618496.0000
+Validation Loss: 1348411373490536448.0000, Median Qerror on Validation Set: 4.7234
+Improved validation q-error to 4.7234
+Epoch 51/1000, Training Loss: 8051525738110648320.0000
+Validation Loss: 1296328607194415104.0000, Median Qerror on Validation Set: 4.2894
+Improved validation q-error to 4.2894
+Epoch 52/1000, Training Loss: 7974040954678018048.0000
+Validation Loss: 1241808086180560896.0000, Median Qerror on Validation Set: 3.9478
+Improved validation q-error to 3.9478
+Epoch 53/1000, Training Loss: 7891268070071599104.0000
+Validation Loss: 1185874830163968000.0000, Median Qerror on Validation Set: 3.6871
+Improved validation q-error to 3.6871
+Epoch 54/1000, Training Loss: 7804051509221523456.0000
+Validation Loss: 1129984936137195520.0000, Median Qerror on Validation Set: 3.4984
+Improved validation q-error to 3.4984
+Epoch 55/1000, Training Loss: 7713690345116008448.0000
+Validation Loss: 1076123641063669760.0000, Median Qerror on Validation Set: 3.3745
+Improved validation q-error to 3.3745
+Epoch 56/1000, Training Loss: 7622041103138553856.0000
+Validation Loss: 1026888060127674368.0000, Median Qerror on Validation Set: 3.3093
+Improved validation q-error to 3.3093
+Epoch 57/1000, Training Loss: 7531633759544672256.0000
+Validation Loss: 985512612940742656.0000, Median Qerror on Validation Set: 3.2978
+Improved validation q-error to 3.2978
+Epoch 58/1000, Training Loss: 7445750356543275008.0000
+Validation Loss: 955798242480619520.0000, Median Qerror on Validation Set: 3.3352
+No improvement in q-error for 1 epochs
+Epoch 59/1000, Training Loss: 7368455788622249984.0000
+Validation Loss: 941874439543324672.0000, Median Qerror on Validation Set: 3.4164
+No improvement in q-error for 2 epochs
+Epoch 60/1000, Training Loss: 7304442221653131264.0000
+Validation Loss: 947645020163276800.0000, Median Qerror on Validation Set: 3.5350
+No improvement in q-error for 3 epochs
+Epoch 61/1000, Training Loss: 7258568947274874880.0000
+Validation Loss: 975670815641042944.0000, Median Qerror on Validation Set: 3.6822
+No improvement in q-error for 4 epochs
+Epoch 62/1000, Training Loss: 7234849732684677120.0000
+Validation Loss: 1025087472398237696.0000, Median Qerror on Validation Set: 3.8453
+No improvement in q-error for 5 epochs
+Epoch 63/1000, Training Loss: 7234513831882391552.0000
+Validation Loss: 1088931027381911552.0000, Median Qerror on Validation Set: 4.0057
+No improvement in q-error for 6 epochs
+Epoch 64/1000, Training Loss: 7253354513380147200.0000
+Validation Loss: 1153372716691095552.0000, Median Qerror on Validation Set: 4.1415
+No improvement in q-error for 7 epochs
+Epoch 65/1000, Training Loss: 7280538838865281024.0000
+Validation Loss: 1202078195583549440.0000, Median Qerror on Validation Set: 4.2340
+No improvement in q-error for 8 epochs
+Epoch 66/1000, Training Loss: 7302009552176676864.0000
+Validation Loss: 1223905013223391232.0000, Median Qerror on Validation Set: 4.2743
+No improvement in q-error for 9 epochs
+Epoch 67/1000, Training Loss: 7307414751338823680.0000
+Validation Loss: 1217039112863744000.0000, Median Qerror on Validation Set: 4.2647
+No improvement in q-error for 10 epochs
+Epoch 68/1000, Training Loss: 7294301975665967104.0000
+Validation Loss: 1187140230608584704.0000, Median Qerror on Validation Set: 4.2146
+No improvement in q-error for 11 epochs
+Epoch 69/1000, Training Loss: 7266854866901794816.0000
+Validation Loss: 1143116540946677760.0000, Median Qerror on Validation Set: 4.1362
+No improvement in q-error for 12 epochs
+Epoch 70/1000, Training Loss: 7232168023824531456.0000
+Validation Loss: 1093726822224363520.0000, Median Qerror on Validation Set: 4.0413
+No improvement in q-error for 13 epochs
+Epoch 71/1000, Training Loss: 7197096351677546496.0000
+Validation Loss: 1045772241054203904.0000, Median Qerror on Validation Set: 3.9403
+No improvement in q-error for 14 epochs
+Epoch 72/1000, Training Loss: 7166566212309090304.0000
+Validation Loss: 1003528385839759360.0000, Median Qerror on Validation Set: 3.8412
+No improvement in q-error for 15 epochs
+Epoch 73/1000, Training Loss: 7143087241009561600.0000
+Validation Loss: 968937956188356608.0000, Median Qerror on Validation Set: 3.7500
+No improvement in q-error for 16 epochs
+Epoch 74/1000, Training Loss: 7127028873685893120.0000
+Validation Loss: 942182852554915840.0000, Median Qerror on Validation Set: 3.6700
+No improvement in q-error for 17 epochs
+Epoch 75/1000, Training Loss: 7117259712873103360.0000
+Validation Loss: 922359757417742336.0000, Median Qerror on Validation Set: 3.6032
+No improvement in q-error for 18 epochs
+Epoch 76/1000, Training Loss: 7111866608338862080.0000
+Validation Loss: 908081430699966464.0000, Median Qerror on Validation Set: 3.5498
+No improvement in q-error for 19 epochs
+Epoch 77/1000, Training Loss: 7108756639699697664.0000
+Validation Loss: 897913696922107904.0000, Median Qerror on Validation Set: 3.5092
+No improvement in q-error for 20 epochs
+Epoch 78/1000, Training Loss: 7106065035234902016.0000
+Validation Loss: 890634998665707520.0000, Median Qerror on Validation Set: 3.4805
+No improvement in q-error for 21 epochs
+Epoch 79/1000, Training Loss: 7102365728363249664.0000
+Validation Loss: 885352326330580992.0000, Median Qerror on Validation Set: 3.4626
+No improvement in q-error for 22 epochs
+Epoch 80/1000, Training Loss: 7096731830782525440.0000
+Validation Loss: 881519703674060800.0000, Median Qerror on Validation Set: 3.4546
+No improvement in q-error for 23 epochs
+Epoch 81/1000, Training Loss: 7088715841260224512.0000
+Validation Loss: 878900529537744896.0000, Median Qerror on Validation Set: 3.4556
+No improvement in q-error for 24 epochs
+Epoch 82/1000, Training Loss: 7078267182261469184.0000
+Validation Loss: 877500232760295424.0000, Median Qerror on Validation Set: 3.4648
+No improvement in q-error for 25 epochs
+Epoch 83/1000, Training Loss: 7065650286332739584.0000
+Validation Loss: 877489581241401344.0000, Median Qerror on Validation Set: 3.4817
+No improvement in q-error for 26 epochs
+Epoch 84/1000, Training Loss: 7051352786880954368.0000
+Validation Loss: 879117133328416768.0000, Median Qerror on Validation Set: 3.5056
+No improvement in q-error for 27 epochs
+Epoch 85/1000, Training Loss: 7035994258708365312.0000
+Validation Loss: 882622445117243392.0000, Median Qerror on Validation Set: 3.5355
+No improvement in q-error for 28 epochs
+Epoch 86/1000, Training Loss: 7020244304396288000.0000
+Validation Loss: 888146872571527168.0000, Median Qerror on Validation Set: 3.5704
+No improvement in q-error for 29 epochs
+Epoch 87/1000, Training Loss: 7004729095816740864.0000
+Validation Loss: 895651108150575104.0000, Median Qerror on Validation Set: 3.6088
+No improvement in q-error for 30 epochs
+Early stopping triggered at epoch 87
+Early stopping at epoch 87
+Median Qerror on Validation Set: 3.2978
+
+Testing combination 3/9:
+Learning Rate: 0.01, Weight Decay: 0.0001, Hidden Dim: 64, Heads: 8
+Epoch 1/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779153300008992768.0000, Median Qerror on Validation Set: 139726912.0000
+Improved validation q-error to 139726912.0000
+Epoch 2/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779153025131085824.0000, Median Qerror on Validation Set: 12212184.0000
+Improved validation q-error to 12212184.0000
+Epoch 3/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779152475375271936.0000, Median Qerror on Validation Set: 2557315.2500
+Improved validation q-error to 2557315.2500
+Epoch 4/1000, Training Loss: 8659589753131237376.0000
+Validation Loss: 1779150551229923328.0000, Median Qerror on Validation Set: 768344.3750
+Improved validation q-error to 768344.3750
+Epoch 5/1000, Training Loss: 8659586454596354048.0000
+Validation Loss: 1779145465988644864.0000, Median Qerror on Validation Set: 287005.6875
+Improved validation q-error to 287005.6875
+Epoch 6/1000, Training Loss: 8659579857526587392.0000
+Validation Loss: 1779135295506087936.0000, Median Qerror on Validation Set: 124124.2891
+Improved validation q-error to 124124.2891
+Epoch 7/1000, Training Loss: 8659566113631240192.0000
+Validation Loss: 1779115504296787968.0000, Median Qerror on Validation Set: 59581.0664
+Improved validation q-error to 59581.0664
+Epoch 8/1000, Training Loss: 8659539175596359680.0000
+Validation Loss: 1779080594802606080.0000, Median Qerror on Validation Set: 30943.2285
+Improved validation q-error to 30943.2285
+Epoch 9/1000, Training Loss: 8659491346840551424.0000
+Validation Loss: 1779021770930520064.0000, Median Qerror on Validation Set: 17107.0625
+Improved validation q-error to 17107.0625
+Epoch 10/1000, Training Loss: 8659411082491723776.0000
+Validation Loss: 1778926938052624384.0000, Median Qerror on Validation Set: 9948.5410
+Improved validation q-error to 9948.5410
+Epoch 11/1000, Training Loss: 8659282439631273984.0000
+Validation Loss: 1778780015811362816.0000, Median Qerror on Validation Set: 6032.7832
+Improved validation q-error to 6032.7832
+Epoch 12/1000, Training Loss: 8659081229003390976.0000
+Validation Loss: 1778559013974179840.0000, Median Qerror on Validation Set: 3789.0996
+Improved validation q-error to 3789.0996
+Epoch 13/1000, Training Loss: 8658778863305752576.0000
+Validation Loss: 1778235070360846336.0000, Median Qerror on Validation Set: 2451.5981
+Improved validation q-error to 2451.5981
+Epoch 14/1000, Training Loss: 8658336859631386624.0000
+Validation Loss: 1777770251820204032.0000, Median Qerror on Validation Set: 1627.5876
+Improved validation q-error to 1627.5876
+Epoch 15/1000, Training Loss: 8657701891666345984.0000
+Validation Loss: 1777116592157491200.0000, Median Qerror on Validation Set: 1105.0868
+Improved validation q-error to 1105.0868
+Epoch 16/1000, Training Loss: 8656808538468777984.0000
+Validation Loss: 1776213205916319744.0000, Median Qerror on Validation Set: 765.3125
+Improved validation q-error to 765.3125
+Epoch 17/1000, Training Loss: 8655574886422413312.0000
+Validation Loss: 1774983677038559232.0000, Median Qerror on Validation Set: 539.4365
+Improved validation q-error to 539.4365
+Epoch 18/1000, Training Loss: 8653894832655171584.0000
+Validation Loss: 1773333722402127872.0000, Median Qerror on Validation Set: 386.2831
+Improved validation q-error to 386.2831
+Epoch 19/1000, Training Loss: 8651639734306603008.0000
+Validation Loss: 1771146793774481408.0000, Median Qerror on Validation Set: 280.5823
+Improved validation q-error to 280.5823
+Epoch 20/1000, Training Loss: 8648649612434866176.0000
+Validation Loss: 1768283390617845760.0000, Median Qerror on Validation Set: 206.4728
+Improved validation q-error to 206.4728
+Epoch 21/1000, Training Loss: 8644730952993472512.0000
+Validation Loss: 1764574050702589952.0000, Median Qerror on Validation Set: 153.7489
+Improved validation q-error to 153.7489
+Epoch 22/1000, Training Loss: 8639652858540589056.0000
+Validation Loss: 1759816189011296256.0000, Median Qerror on Validation Set: 115.7363
+Improved validation q-error to 115.7363
+Epoch 23/1000, Training Loss: 8633131655076249600.0000
+Validation Loss: 1753770799203876864.0000, Median Qerror on Validation Set: 87.9953
+Improved validation q-error to 87.9953
+Epoch 24/1000, Training Loss: 8624839138379563008.0000
+Validation Loss: 1746157643254202368.0000, Median Qerror on Validation Set: 67.5230
+Improved validation q-error to 67.5230
+Epoch 25/1000, Training Loss: 8614385531578482688.0000
+Validation Loss: 1736652777548939264.0000, Median Qerror on Validation Set: 52.2586
+Improved validation q-error to 52.2586
+Epoch 26/1000, Training Loss: 8601317286126551040.0000
+Validation Loss: 1724884017402085376.0000, Median Qerror on Validation Set: 40.7676
+Improved validation q-error to 40.7676
+Epoch 27/1000, Training Loss: 8585113783268016128.0000
+Validation Loss: 1710431624249737216.0000, Median Qerror on Validation Set: 32.0400
+Improved validation q-error to 32.0400
+Epoch 28/1000, Training Loss: 8565177438433181696.0000
+Validation Loss: 1692828443089043456.0000, Median Qerror on Validation Set: 25.3561
+Improved validation q-error to 25.3561
+Epoch 29/1000, Training Loss: 8540844146598871040.0000
+Validation Loss: 1671563475890995200.0000, Median Qerror on Validation Set: 20.1972
+Improved validation q-error to 20.1972
+Epoch 30/1000, Training Loss: 8511369538393079808.0000
+Validation Loss: 1646086554524844032.0000, Median Qerror on Validation Set: 16.1854
+Improved validation q-error to 16.1854
+Epoch 31/1000, Training Loss: 8475950420571717632.0000
+Validation Loss: 1615814250633101312.0000, Median Qerror on Validation Set: 13.0430
+Improved validation q-error to 13.0430
+Epoch 32/1000, Training Loss: 8433729174065119232.0000
+Validation Loss: 1580164097930952704.0000, Median Qerror on Validation Set: 10.5653
+Improved validation q-error to 10.5653
+Epoch 33/1000, Training Loss: 8383817943233855488.0000
+Validation Loss: 1538620562903924736.0000, Median Qerror on Validation Set: 8.6012
+Improved validation q-error to 8.6012
+Epoch 34/1000, Training Loss: 8325344815357100032.0000
+Validation Loss: 1490780537101484032.0000, Median Qerror on Validation Set: 7.0361
+Improved validation q-error to 7.0361
+Epoch 35/1000, Training Loss: 8257503298655879168.0000
+Validation Loss: 1436425904904470528.0000, Median Qerror on Validation Set: 5.8238
+Improved validation q-error to 5.8238
+Epoch 36/1000, Training Loss: 8179645780781432832.0000
+Validation Loss: 1375642840536711168.0000, Median Qerror on Validation Set: 5.0058
+Improved validation q-error to 5.0058
+Epoch 37/1000, Training Loss: 8091399527291944960.0000
+Validation Loss: 1308980275178373120.0000, Median Qerror on Validation Set: 4.3846
+Improved validation q-error to 4.3846
+Epoch 38/1000, Training Loss: 7992842053757173760.0000
+Validation Loss: 1237671585997914112.0000, Median Qerror on Validation Set: 3.9265
+Improved validation q-error to 3.9265
+Epoch 39/1000, Training Loss: 7884725426130518016.0000
+Validation Loss: 1163928028317745152.0000, Median Qerror on Validation Set: 3.6063
+Improved validation q-error to 3.6063
+Epoch 40/1000, Training Loss: 7768796218632699904.0000
+Validation Loss: 1091327275535695872.0000, Median Qerror on Validation Set: 3.4055
+Improved validation q-error to 3.4055
+Epoch 41/1000, Training Loss: 7648203432565669888.0000
+Validation Loss: 1025274595533389824.0000, Median Qerror on Validation Set: 3.3105
+Improved validation q-error to 3.3105
+Epoch 42/1000, Training Loss: 7527999323859058688.0000
+Validation Loss: 973384449930559488.0000, Median Qerror on Validation Set: 3.3107
+No improvement in q-error for 1 epochs
+Epoch 43/1000, Training Loss: 7415699054488715264.0000
+Validation Loss: 945505095657717760.0000, Median Qerror on Validation Set: 3.3970
+No improvement in q-error for 2 epochs
+Epoch 44/1000, Training Loss: 7321639683023175680.0000
+Validation Loss: 952847703027482624.0000, Median Qerror on Validation Set: 3.5585
+No improvement in q-error for 3 epochs
+Epoch 45/1000, Training Loss: 7258524966809763840.0000
+Validation Loss: 1004674626711715840.0000, Median Qerror on Validation Set: 3.7781
+No improvement in q-error for 4 epochs
+Epoch 46/1000, Training Loss: 7238639199509807104.0000
+Validation Loss: 1098987573046411264.0000, Median Qerror on Validation Set: 4.0236
+No improvement in q-error for 5 epochs
+Epoch 47/1000, Training Loss: 7265350734994997248.0000
+Validation Loss: 1208864518789136384.0000, Median Qerror on Validation Set: 4.2417
+No improvement in q-error for 6 epochs
+Epoch 48/1000, Training Loss: 7319458251953668096.0000
+Validation Loss: 1288655115544166400.0000, Median Qerror on Validation Set: 4.3781
+No improvement in q-error for 7 epochs
+Epoch 49/1000, Training Loss: 7361858169099780096.0000
+Validation Loss: 1309498557471916032.0000, Median Qerror on Validation Set: 4.4130
+No improvement in q-error for 8 epochs
+Epoch 50/1000, Training Loss: 7365001672843591680.0000
+Validation Loss: 1275086867179503616.0000, Median Qerror on Validation Set: 4.3609
+No improvement in q-error for 9 epochs
+Epoch 51/1000, Training Loss: 7329864579754754048.0000
+Validation Loss: 1206611482024869888.0000, Median Qerror on Validation Set: 4.2495
+No improvement in q-error for 10 epochs
+Epoch 52/1000, Training Loss: 7273766396993994752.0000
+Validation Loss: 1126701931855609856.0000, Median Qerror on Validation Set: 4.1063
+No improvement in q-error for 11 epochs
+Epoch 53/1000, Training Loss: 7215435106117222400.0000
+Validation Loss: 1051953489267130368.0000, Median Qerror on Validation Set: 3.9541
+No improvement in q-error for 12 epochs
+Epoch 54/1000, Training Loss: 7167687164413607936.0000
+Validation Loss: 991244504495292416.0000, Median Qerror on Validation Set: 3.8096
+No improvement in q-error for 13 epochs
+Epoch 55/1000, Training Loss: 7135857952056934400.0000
+Validation Loss: 946936659797082112.0000, Median Qerror on Validation Set: 3.6834
+No improvement in q-error for 14 epochs
+Epoch 56/1000, Training Loss: 7119221791372869632.0000
+Validation Loss: 917212874768646144.0000, Median Qerror on Validation Set: 3.5803
+No improvement in q-error for 15 epochs
+Epoch 57/1000, Training Loss: 7113551060152614912.0000
+Validation Loss: 898411500811583488.0000, Median Qerror on Validation Set: 3.5011
+No improvement in q-error for 16 epochs
+Epoch 58/1000, Training Loss: 7113533467966570496.0000
+Validation Loss: 886717232577511424.0000, Median Qerror on Validation Set: 3.4439
+No improvement in q-error for 17 epochs
+Epoch 59/1000, Training Loss: 7114413077268791296.0000
+Validation Loss: 879066143476678656.0000, Median Qerror on Validation Set: 3.4060
+No improvement in q-error for 18 epochs
+Epoch 60/1000, Training Loss: 7112724227408527360.0000
+Validation Loss: 873446951863975936.0000, Median Qerror on Validation Set: 3.3847
+No improvement in q-error for 19 epochs
+Epoch 61/1000, Training Loss: 7106422376513929216.0000
+Validation Loss: 868863775082545152.0000, Median Qerror on Validation Set: 3.3781
+No improvement in q-error for 20 epochs
+Epoch 62/1000, Training Loss: 7094708179631603712.0000
+Validation Loss: 865159520408567808.0000, Median Qerror on Validation Set: 3.3849
+No improvement in q-error for 21 epochs
+Epoch 63/1000, Training Loss: 7077759757645250560.0000
+Validation Loss: 862802098759139328.0000, Median Qerror on Validation Set: 3.4045
+No improvement in q-error for 22 epochs
+Epoch 64/1000, Training Loss: 7056480359357087744.0000
+Validation Loss: 862660193039679488.0000, Median Qerror on Validation Set: 3.4364
+No improvement in q-error for 23 epochs
+Epoch 65/1000, Training Loss: 7032275710383226880.0000
+Validation Loss: 865760197354717184.0000, Median Qerror on Validation Set: 3.4800
+No improvement in q-error for 24 epochs
+Epoch 66/1000, Training Loss: 7006833011316490240.0000
+Validation Loss: 873007696968679424.0000, Median Qerror on Validation Set: 3.5338
+No improvement in q-error for 25 epochs
+Epoch 67/1000, Training Loss: 6981880144679927808.0000
+Validation Loss: 884865517557383168.0000, Median Qerror on Validation Set: 3.5954
+No improvement in q-error for 26 epochs
+Epoch 68/1000, Training Loss: 6958898152636153856.0000
+Validation Loss: 901027582571446272.0000, Median Qerror on Validation Set: 3.6615
+No improvement in q-error for 27 epochs
+Epoch 69/1000, Training Loss: 6938808975685058560.0000
+Validation Loss: 920177020678176768.0000, Median Qerror on Validation Set: 3.7272
+No improvement in q-error for 28 epochs
+Epoch 70/1000, Training Loss: 6921720365966163968.0000
+Validation Loss: 939970222842970112.0000, Median Qerror on Validation Set: 3.7873
+No improvement in q-error for 29 epochs
+Epoch 71/1000, Training Loss: 6906815936095846400.0000
+Validation Loss: 957372330814734336.0000, Median Qerror on Validation Set: 3.8363
+No improvement in q-error for 30 epochs
+Early stopping triggered at epoch 71
+Early stopping at epoch 71
+Median Qerror on Validation Set: 3.3105
+
+Testing combination 4/9:
+Learning Rate: 0.01, Weight Decay: 0.0001, Hidden Dim: 128, Heads: 2
+Epoch 1/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779153300008992768.0000, Median Qerror on Validation Set: 1054953216.0000
+Improved validation q-error to 1054953216.0000
+Epoch 2/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779153300008992768.0000, Median Qerror on Validation Set: 93361392.0000
+Improved validation q-error to 93361392.0000
+Epoch 3/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779153300008992768.0000, Median Qerror on Validation Set: 18926468.0000
+Improved validation q-error to 18926468.0000
+Epoch 4/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779153025131085824.0000, Median Qerror on Validation Set: 5448073.5000
+Improved validation q-error to 5448073.5000
+Epoch 5/1000, Training Loss: 8659589753131237376.0000
+Validation Loss: 1779152200497364992.0000, Median Qerror on Validation Set: 1960888.7500
+Improved validation q-error to 1960888.7500
+Epoch 6/1000, Training Loss: 8659589753131237376.0000
+Validation Loss: 1779150551229923328.0000, Median Qerror on Validation Set: 816659.2500
+Improved validation q-error to 816659.2500
+Epoch 7/1000, Training Loss: 8659587554107981824.0000
+Validation Loss: 1779147527572946944.0000, Median Qerror on Validation Set: 378665.9375
+Improved validation q-error to 378665.9375
+Epoch 8/1000, Training Loss: 8659583156061470720.0000
+Validation Loss: 1779141480258994176.0000, Median Qerror on Validation Set: 190560.1875
+Improved validation q-error to 190560.1875
+Epoch 9/1000, Training Loss: 8659574359968448512.0000
+Validation Loss: 1779131309776437248.0000, Median Qerror on Validation Set: 102278.8281
+Improved validation q-error to 102278.8281
+Epoch 10/1000, Training Loss: 8659560066317287424.0000
+Validation Loss: 1779114404785160192.0000, Median Qerror on Validation Set: 57853.6914
+Improved validation q-error to 57853.6914
+Epoch 11/1000, Training Loss: 8659538076084731904.0000
+Validation Loss: 1779087466750279680.0000, Median Qerror on Validation Set: 34180.3398
+Improved validation q-error to 34180.3398
+Epoch 12/1000, Training Loss: 8659501242445201408.0000
+Validation Loss: 1779045822747377664.0000, Median Qerror on Validation Set: 20950.8008
+Improved validation q-error to 20950.8008
+Epoch 13/1000, Training Loss: 8659443518084743168.0000
+Validation Loss: 1778983425462501376.0000, Median Qerror on Validation Set: 13253.9707
+Improved validation q-error to 13253.9707
+Epoch 14/1000, Training Loss: 8659359405445218304.0000
+Validation Loss: 1778892165997395968.0000, Median Qerror on Validation Set: 8618.3115
+Improved validation q-error to 8618.3115
+Epoch 15/1000, Training Loss: 8659233511363837952.0000
+Validation Loss: 1778761186674737152.0000, Median Qerror on Validation Set: 5740.4751
+Improved validation q-error to 5740.4751
+Epoch 16/1000, Training Loss: 8659054840724324352.0000
+Validation Loss: 1778576881038131200.0000, Median Qerror on Validation Set: 3905.8318
+Improved validation q-error to 3905.8318
+Epoch 17/1000, Training Loss: 8658803052561563648.0000
+Validation Loss: 1778321931779440640.0000, Median Qerror on Validation Set: 2708.4084
+Improved validation q-error to 2708.4084
+Epoch 18/1000, Training Loss: 8658456156643000320.0000
+Validation Loss: 1777974760982970368.0000, Median Qerror on Validation Set: 1910.3146
+Improved validation q-error to 1910.3146
+Epoch 19/1000, Training Loss: 8657980617863987200.0000
+Validation Loss: 1777508018296979456.0000, Median Qerror on Validation Set: 1368.2578
+Improved validation q-error to 1368.2578
+Epoch 20/1000, Training Loss: 8657342901119877120.0000
+Validation Loss: 1776888718372634624.0000, Median Qerror on Validation Set: 993.7769
+Improved validation q-error to 993.7769
+Epoch 21/1000, Training Loss: 8656496277166489600.0000
+Validation Loss: 1776075492084940800.0000, Median Qerror on Validation Set: 731.0336
+Improved validation q-error to 731.0336
+Epoch 22/1000, Training Loss: 8655385770422435840.0000
+Validation Loss: 1775019136288555008.0000, Median Qerror on Validation Set: 544.0677
+Improved validation q-error to 544.0677
+Epoch 23/1000, Training Loss: 8653941561899352064.0000
+Validation Loss: 1773660139916623872.0000, Median Qerror on Validation Set: 409.2925
+Improved validation q-error to 409.2925
+Epoch 24/1000, Training Loss: 8652083387248410624.0000
+Validation Loss: 1771927447030202368.0000, Median Qerror on Validation Set: 310.9781
+Improved validation q-error to 310.9781
+Epoch 25/1000, Training Loss: 8649713939690553344.0000
+Validation Loss: 1769737219867672576.0000, Median Qerror on Validation Set: 238.4721
+Improved validation q-error to 238.4721
+Epoch 26/1000, Training Loss: 8646718320260677632.0000
+Validation Loss: 1766990777260441600.0000, Median Qerror on Validation Set: 184.4509
+Improved validation q-error to 184.4509
+Epoch 27/1000, Training Loss: 8642957440737869824.0000
+Validation Loss: 1763571983292825600.0000, Median Qerror on Validation Set: 143.8148
+Improved validation q-error to 143.8148
+Epoch 28/1000, Training Loss: 8638273521203544064.0000
+Validation Loss: 1759346285229375488.0000, Median Qerror on Validation Set: 112.9740
+Improved validation q-error to 112.9740
+Epoch 29/1000, Training Loss: 8632480194436792320.0000
+Validation Loss: 1754158239613714432.0000, Median Qerror on Validation Set: 89.3718
+Improved validation q-error to 89.3718
+Epoch 30/1000, Training Loss: 8625361956158570496.0000
+Validation Loss: 1747830275317956608.0000, Median Qerror on Validation Set: 71.1684
+Improved validation q-error to 71.1684
+Epoch 31/1000, Training Loss: 8616671966008442880.0000
+Validation Loss: 1740160906836312064.0000, Median Qerror on Validation Set: 57.0265
+Improved validation q-error to 57.0265
+Epoch 32/1000, Training Loss: 8606129848521326592.0000
+Validation Loss: 1730922672700784640.0000, Median Qerror on Validation Set: 45.9639
+Improved validation q-error to 45.9639
+Epoch 33/1000, Training Loss: 8593415645813538816.0000
+Validation Loss: 1719862822675939328.0000, Median Qerror on Validation Set: 37.2535
+Improved validation q-error to 37.2535
+Epoch 34/1000, Training Loss: 8578174215629307904.0000
+Validation Loss: 1706700843857739776.0000, Median Qerror on Validation Set: 30.3526
+Improved validation q-error to 30.3526
+Epoch 35/1000, Training Loss: 8560004785980309504.0000
+Validation Loss: 1691133958231687168.0000, Median Qerror on Validation Set: 24.8538
+Improved validation q-error to 24.8538
+Epoch 36/1000, Training Loss: 8538474699041013760.0000
+Validation Loss: 1672834786210611200.0000, Median Qerror on Validation Set: 20.4477
+Improved validation q-error to 20.4477
+Epoch 37/1000, Training Loss: 8513109515544035328.0000
+Validation Loss: 1651457119070715904.0000, Median Qerror on Validation Set: 16.8982
+Improved validation q-error to 16.8982
+Epoch 38/1000, Training Loss: 8483400161605713920.0000
+Validation Loss: 1626636331268440064.0000, Median Qerror on Validation Set: 14.0234
+Improved validation q-error to 14.0234
+Epoch 39/1000, Training Loss: 8448812824330764288.0000
+Validation Loss: 1598004361286385664.0000, Median Qerror on Validation Set: 11.6838
+Improved validation q-error to 11.6838
+Epoch 40/1000, Training Loss: 8408796098637856768.0000
+Validation Loss: 1565220910275756032.0000, Median Qerror on Validation Set: 9.7715
+Improved validation q-error to 9.7715
+Epoch 41/1000, Training Loss: 8362799678957289472.0000
+Validation Loss: 1527995707166818304.0000, Median Qerror on Validation Set: 8.2027
+Improved validation q-error to 8.2027
+Epoch 42/1000, Training Loss: 8310295249951916032.0000
+Validation Loss: 1486113247680528384.0000, Median Qerror on Validation Set: 6.9105
+Improved validation q-error to 6.9105
+Epoch 43/1000, Training Loss: 8250817718203187200.0000
+Validation Loss: 1439474163453526016.0000, Median Qerror on Validation Set: 5.8734
+Improved validation q-error to 5.8734
+Epoch 44/1000, Training Loss: 8183993799513473024.0000
+Validation Loss: 1388148823229988864.0000, Median Qerror on Validation Set: 5.1506
+Improved validation q-error to 5.1506
+Epoch 45/1000, Training Loss: 8109622283254890496.0000
+Validation Loss: 1332454848431390720.0000, Median Qerror on Validation Set: 4.5778
+Improved validation q-error to 4.5778
+Epoch 46/1000, Training Loss: 8027732306485575680.0000
+Validation Loss: 1273047135671025664.0000, Median Qerror on Validation Set: 4.1321
+Improved validation q-error to 4.1321
+Epoch 47/1000, Training Loss: 7938693305112461312.0000
+Validation Loss: 1211039627666784256.0000, Median Qerror on Validation Set: 3.7954
+Improved validation q-error to 3.7954
+Epoch 48/1000, Training Loss: 7843346955286609920.0000
+Validation Loss: 1148152579079798784.0000, Median Qerror on Validation Set: 3.5538
+Improved validation q-error to 3.5538
+Epoch 49/1000, Training Loss: 7743156157228777472.0000
+Validation Loss: 1086892395385061376.0000, Median Qerror on Validation Set: 3.3963
+Improved validation q-error to 3.3963
+Epoch 50/1000, Training Loss: 7640405696101482496.0000
+Validation Loss: 1030733052290007040.0000, Median Qerror on Validation Set: 3.3147
+Improved validation q-error to 3.3147
+Epoch 51/1000, Training Loss: 7538413348241539072.0000
+Validation Loss: 984229689029558272.0000, Median Qerror on Validation Set: 3.3018
+Improved validation q-error to 3.3018
+Epoch 52/1000, Training Loss: 7441731091787939840.0000
+Validation Loss: 952965900527468544.0000, Median Qerror on Validation Set: 3.3513
+No improvement in q-error for 1 epochs
+Epoch 53/1000, Training Loss: 7356252309065564160.0000
+Validation Loss: 943185675878924288.0000, Median Qerror on Validation Set: 3.4565
+No improvement in q-error for 2 epochs
+Epoch 54/1000, Training Loss: 7289013874492178432.0000
+Validation Loss: 960744876574507008.0000, Median Qerror on Validation Set: 3.6081
+No improvement in q-error for 3 epochs
+Epoch 55/1000, Training Loss: 7247331938439004160.0000
+Validation Loss: 1008618849798455296.0000, Median Qerror on Validation Set: 3.7924
+No improvement in q-error for 4 epochs
+Epoch 56/1000, Training Loss: 7236544629858893824.0000
+Validation Loss: 1082087941888540672.0000, Median Qerror on Validation Set: 3.9869
+No improvement in q-error for 5 epochs
+Epoch 57/1000, Training Loss: 7255498561054310400.0000
+Validation Loss: 1164164698195623936.0000, Median Qerror on Validation Set: 4.1599
+No improvement in q-error for 6 epochs
+Epoch 58/1000, Training Loss: 7291682938968604672.0000
+Validation Loss: 1229574919809925120.0000, Median Qerror on Validation Set: 4.2803
+No improvement in q-error for 7 epochs
+Epoch 59/1000, Training Loss: 7323682575627583488.0000
+Validation Loss: 1259150408207564800.0000, Median Qerror on Validation Set: 4.3321
+No improvement in q-error for 8 epochs
+Epoch 60/1000, Training Loss: 7333799731870564352.0000
+Validation Loss: 1249472781737787392.0000, Median Qerror on Validation Set: 4.3183
+No improvement in q-error for 9 epochs
+Epoch 61/1000, Training Loss: 7317686388965507072.0000
+Validation Loss: 1209569443181494272.0000, Median Qerror on Validation Set: 4.2531
+No improvement in q-error for 10 epochs
+Epoch 62/1000, Training Loss: 7282198551667408896.0000
+Validation Loss: 1152988712255094784.0000, Median Qerror on Validation Set: 4.1540
+No improvement in q-error for 11 epochs
+Epoch 63/1000, Training Loss: 7238353876242399232.0000
+Validation Loss: 1092176304670769152.0000, Median Qerror on Validation Set: 4.0375
+No improvement in q-error for 12 epochs
+Epoch 64/1000, Training Loss: 7196032024421859328.0000
+Validation Loss: 1035972843671650304.0000, Median Qerror on Validation Set: 3.9170
+No improvement in q-error for 13 epochs
+Epoch 65/1000, Training Loss: 7161583225612009472.0000
+Validation Loss: 989170550687399936.0000, Median Qerror on Validation Set: 3.8027
+No improvement in q-error for 14 epochs
+Epoch 66/1000, Training Loss: 7137499522917203968.0000
+Validation Loss: 953186833645174784.0000, Median Qerror on Validation Set: 3.7012
+No improvement in q-error for 15 epochs
+Epoch 67/1000, Training Loss: 7123203122977046528.0000
+Validation Loss: 927187369377923072.0000, Median Qerror on Validation Set: 3.6159
+No improvement in q-error for 16 epochs
+Epoch 68/1000, Training Loss: 7116275649966243840.0000
+Validation Loss: 909207468045762560.0000, Median Qerror on Validation Set: 3.5477
+No improvement in q-error for 17 epochs
+Epoch 69/1000, Training Loss: 7113618130361909248.0000
+Validation Loss: 897024054576283648.0000, Median Qerror on Validation Set: 3.4960
+No improvement in q-error for 18 epochs
+Epoch 70/1000, Training Loss: 7112297616896950272.0000
+Validation Loss: 888685495830183936.0000, Median Qerror on Validation Set: 3.4595
+No improvement in q-error for 19 epochs
+Epoch 71/1000, Training Loss: 7110001286862340096.0000
+Validation Loss: 882755211146297344.0000, Median Qerror on Validation Set: 3.4364
+No improvement in q-error for 20 epochs
+Epoch 72/1000, Training Loss: 7105199169828028416.0000
+Validation Loss: 878359020061065216.0000, Median Qerror on Validation Set: 3.4254
+No improvement in q-error for 21 epochs
+Epoch 73/1000, Training Loss: 7097107314003410944.0000
+Validation Loss: 875128448740229120.0000, Median Qerror on Validation Set: 3.4254
+No improvement in q-error for 22 epochs
+Epoch 74/1000, Training Loss: 7085570138493157376.0000
+Validation Loss: 873097444605296640.0000, Median Qerror on Validation Set: 3.4355
+No improvement in q-error for 23 epochs
+Epoch 75/1000, Training Loss: 7070929041657692160.0000
+Validation Loss: 872581292615532544.0000, Median Qerror on Validation Set: 3.4550
+No improvement in q-error for 24 epochs
+Epoch 76/1000, Training Loss: 7053878365089955840.0000
+Validation Loss: 874037939363905536.0000, Median Qerror on Validation Set: 3.4834
+No improvement in q-error for 25 epochs
+Epoch 77/1000, Training Loss: 7035330703441002496.0000
+Validation Loss: 877936395279138816.0000, Median Qerror on Validation Set: 3.5196
+No improvement in q-error for 26 epochs
+Epoch 78/1000, Training Loss: 7016287162047922176.0000
+Validation Loss: 884605483057414144.0000, Median Qerror on Validation Set: 3.5624
+No improvement in q-error for 27 epochs
+Epoch 79/1000, Training Loss: 6997706515050135552.0000
+Validation Loss: 894087808774307840.0000, Median Qerror on Validation Set: 3.6099
+No improvement in q-error for 28 epochs
+Epoch 80/1000, Training Loss: 6980351823517319168.0000
+Validation Loss: 906010363110096896.0000, Median Qerror on Validation Set: 3.6596
+No improvement in q-error for 29 epochs
+Epoch 81/1000, Training Loss: 6964666740391280640.0000
+Validation Loss: 919519925041627136.0000, Median Qerror on Validation Set: 3.7088
+No improvement in q-error for 30 epochs
+Early stopping triggered at epoch 81
+Early stopping at epoch 81
+Median Qerror on Validation Set: 3.3018
+
+Testing combination 5/9:
+Learning Rate: 0.01, Weight Decay: 0.0001, Hidden Dim: 128, Heads: 4
+Epoch 1/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779153300008992768.0000, Median Qerror on Validation Set: 125642776.0000
+Improved validation q-error to 125642776.0000
+Epoch 2/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779153025131085824.0000, Median Qerror on Validation Set: 10259065.0000
+Improved validation q-error to 10259065.0000
+Epoch 3/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779152200497364992.0000, Median Qerror on Validation Set: 2066746.0000
+Improved validation q-error to 2066746.0000
+Epoch 4/1000, Training Loss: 8659589753131237376.0000
+Validation Loss: 1779149589157249024.0000, Median Qerror on Validation Set: 599267.5000
+Improved validation q-error to 599267.5000
+Epoch 5/1000, Training Loss: 8659585355084726272.0000
+Validation Loss: 1779142992087482368.0000, Median Qerror on Validation Set: 216441.8281
+Improved validation q-error to 216441.8281
+Epoch 6/1000, Training Loss: 8659576558991704064.0000
+Validation Loss: 1779128560997367808.0000, Median Qerror on Validation Set: 90983.5781
+Improved validation q-error to 90983.5781
+Epoch 7/1000, Training Loss: 8659557317538217984.0000
+Validation Loss: 1779100523450859520.0000, Median Qerror on Validation Set: 42653.4023
+Improved validation q-error to 42653.4023
+Epoch 8/1000, Training Loss: 8659519384387059712.0000
+Validation Loss: 1779049808477028352.0000, Median Qerror on Validation Set: 21725.2891
+Improved validation q-error to 21725.2891
+Epoch 9/1000, Training Loss: 8659450664910323712.0000
+Validation Loss: 1778962672180527104.0000, Median Qerror on Validation Set: 11810.7969
+Improved validation q-error to 11810.7969
+Epoch 10/1000, Training Loss: 8659330818142896128.0000
+Validation Loss: 1778820835180544000.0000, Median Qerror on Validation Set: 6767.4575
+Improved validation q-error to 6767.4575
+Epoch 11/1000, Training Loss: 8659137304096407552.0000
+Validation Loss: 1778597359442198528.0000, Median Qerror on Validation Set: 4049.0598
+Improved validation q-error to 4049.0598
+Epoch 12/1000, Training Loss: 8658833289131327488.0000
+Validation Loss: 1778257335471308800.0000, Median Qerror on Validation Set: 2512.4229
+Improved validation q-error to 2512.4229
+Epoch 13/1000, Training Loss: 8658370394736033792.0000
+Validation Loss: 1777753484267880448.0000, Median Qerror on Validation Set: 1607.8894
+Improved validation q-error to 1607.8894
+Epoch 14/1000, Training Loss: 8657683199968673792.0000
+Validation Loss: 1777024370619711488.0000, Median Qerror on Validation Set: 1056.9094
+Improved validation q-error to 1056.9094
+Epoch 15/1000, Training Loss: 8656687592189722624.0000
+Validation Loss: 1775990279933788160.0000, Median Qerror on Validation Set: 711.1523
+Improved validation q-error to 711.1523
+Epoch 16/1000, Training Loss: 8655276918771286016.0000
+Validation Loss: 1774549919701401600.0000, Median Qerror on Validation Set: 488.4631
+Improved validation q-error to 488.4631
+Epoch 17/1000, Training Loss: 8653312091492450304.0000
+Validation Loss: 1772577120963264512.0000, Median Qerror on Validation Set: 341.7097
+Improved validation q-error to 341.7097
+Epoch 18/1000, Training Loss: 8650617738248585216.0000
+Validation Loss: 1769913966361837568.0000, Median Qerror on Validation Set: 243.0092
+Improved validation q-error to 243.0092
+Epoch 19/1000, Training Loss: 8646978904516460544.0000
+Validation Loss: 1766367903923306496.0000, Median Qerror on Validation Set: 175.4029
+Improved validation q-error to 175.4029
+Epoch 20/1000, Training Loss: 8642128958726340608.0000
+Validation Loss: 1761703363281420288.0000, Median Qerror on Validation Set: 128.3173
+Improved validation q-error to 128.3173
+Epoch 21/1000, Training Loss: 8635744644459659264.0000
+Validation Loss: 1755637082753073152.0000, Median Qerror on Validation Set: 95.0265
+Improved validation q-error to 95.0265
+Epoch 22/1000, Training Loss: 8627433436065300480.0000
+Validation Loss: 1747832062024351744.0000, Median Qerror on Validation Set: 71.1649
+Improved validation q-error to 71.1649
+Epoch 23/1000, Training Loss: 8616728590857273344.0000
+Validation Loss: 1737892751787163648.0000, Median Qerror on Validation Set: 53.8466
+Improved validation q-error to 53.8466
+Epoch 24/1000, Training Loss: 8603078703754248192.0000
+Validation Loss: 1725359968497958912.0000, Median Qerror on Validation Set: 41.1318
+Improved validation q-error to 41.1318
+Epoch 25/1000, Training Loss: 8585837811674906624.0000
+Validation Loss: 1709708832793427968.0000, Median Qerror on Validation Set: 31.6970
+Improved validation q-error to 31.6970
+Epoch 26/1000, Training Loss: 8564265943293755392.0000
+Validation Loss: 1690350556196896768.0000, Median Qerror on Validation Set: 24.6267
+Improved validation q-error to 24.6267
+Epoch 27/1000, Training Loss: 8537518123924848640.0000
+Validation Loss: 1666636426847977472.0000, Median Qerror on Validation Set: 19.2792
+Improved validation q-error to 19.2792
+Epoch 28/1000, Training Loss: 8504655920393879552.0000
+Validation Loss: 1637865918400823296.0000, Median Qerror on Validation Set: 15.1990
+Improved validation q-error to 15.1990
+Epoch 29/1000, Training Loss: 8464650189817249792.0000
+Validation Loss: 1603297547701452800.0000, Median Qerror on Validation Set: 12.0590
+Improved validation q-error to 12.0590
+Epoch 30/1000, Training Loss: 8416408567392763904.0000
+Validation Loss: 1562215944997044224.0000, Median Qerror on Validation Set: 9.6251
+Improved validation q-error to 9.6251
+Epoch 31/1000, Training Loss: 8358811750283345920.0000
+Validation Loss: 1514018852793483264.0000, Median Qerror on Validation Set: 7.7267
+Improved validation q-error to 7.7267
+Epoch 32/1000, Training Loss: 8290778368803078144.0000
+Validation Loss: 1458294503986167808.0000, Median Qerror on Validation Set: 6.2368
+Improved validation q-error to 6.2368
+Epoch 33/1000, Training Loss: 8211371089289281536.0000
+Validation Loss: 1394960572641968128.0000, Median Qerror on Validation Set: 5.2340
+Improved validation q-error to 5.2340
+Epoch 34/1000, Training Loss: 8119939550614126592.0000
+Validation Loss: 1324472668891643904.0000, Median Qerror on Validation Set: 4.5093
+Improved validation q-error to 4.5093
+Epoch 35/1000, Training Loss: 8016342465533444096.0000
+Validation Loss: 1248119282923995136.0000, Median Qerror on Validation Set: 3.9832
+Improved validation q-error to 3.9832
+Epoch 36/1000, Training Loss: 7901256033698316288.0000
+Validation Loss: 1168429841238720512.0000, Median Qerror on Validation Set: 3.6222
+Improved validation q-error to 3.6222
+Epoch 37/1000, Training Loss: 7776601651678281728.0000
+Validation Loss: 1089736144771350528.0000, Median Qerror on Validation Set: 3.4022
+Improved validation q-error to 3.4022
+Epoch 38/1000, Training Loss: 7646141848263589888.0000
+Validation Loss: 1018877087127175168.0000, Median Qerror on Validation Set: 3.3062
+Improved validation q-error to 3.3062
+Epoch 39/1000, Training Loss: 7516242246023249920.0000
+Validation Loss: 965826269562273792.0000, Median Qerror on Validation Set: 3.3214
+No improvement in q-error for 1 epochs
+Epoch 40/1000, Training Loss: 7396729730130509824.0000
+Validation Loss: 943776044903563264.0000, Median Qerror on Validation Set: 3.4366
+No improvement in q-error for 2 epochs
+Epoch 41/1000, Training Loss: 7301502127560458240.0000
+Validation Loss: 967601980841132032.0000, Median Qerror on Validation Set: 3.6377
+No improvement in q-error for 3 epochs
+Epoch 42/1000, Training Loss: 7247628806578503680.0000
+Validation Loss: 1047236172067110912.0000, Median Qerror on Validation Set: 3.8989
+No improvement in q-error for 4 epochs
+Epoch 43/1000, Training Loss: 7249672248938725376.0000
+Validation Loss: 1169416927802556416.0000, Median Qerror on Validation Set: 4.1676
+No improvement in q-error for 5 epochs
+Epoch 44/1000, Training Loss: 7302709391327756288.0000
+Validation Loss: 1282744690789056512.0000, Median Qerror on Validation Set: 4.3674
+No improvement in q-error for 6 epochs
+Epoch 45/1000, Training Loss: 7365510196971438080.0000
+Validation Loss: 1333588307480674304.0000, Median Qerror on Validation Set: 4.4490
+No improvement in q-error for 7 epochs
+Epoch 46/1000, Training Loss: 7389266794956980224.0000
+Validation Loss: 1312096840887304192.0000, Median Qerror on Validation Set: 4.4181
+No improvement in q-error for 8 epochs
+Epoch 47/1000, Training Loss: 7361874661774196736.0000
+Validation Loss: 1241561245820125184.0000, Median Qerror on Validation Set: 4.3077
+No improvement in q-error for 9 epochs
+Epoch 48/1000, Training Loss: 7301910046374363136.0000
+Validation Loss: 1151868997101158400.0000, Median Qerror on Validation Set: 4.1532
+No improvement in q-error for 10 epochs
+Epoch 49/1000, Training Loss: 7234474799219605504.0000
+Validation Loss: 1065979959102668800.0000, Median Qerror on Validation Set: 3.9841
+No improvement in q-error for 11 epochs
+Epoch 50/1000, Training Loss: 7177941759610060800.0000
+Validation Loss: 996457014244671488.0000, Median Qerror on Validation Set: 3.8224
+No improvement in q-error for 12 epochs
+Epoch 51/1000, Training Loss: 7140539672568004608.0000
+Validation Loss: 946809941081980928.0000, Median Qerror on Validation Set: 3.6816
+No improvement in q-error for 13 epochs
+Epoch 52/1000, Training Loss: 7121957926058590208.0000
+Validation Loss: 914742753177370624.0000, Median Qerror on Validation Set: 3.5680
+No improvement in q-error for 14 epochs
+Epoch 53/1000, Training Loss: 7116917215001051136.0000
+Validation Loss: 895479103300304896.0000, Median Qerror on Validation Set: 3.4822
+No improvement in q-error for 15 epochs
+Epoch 54/1000, Training Loss: 7118636301431078912.0000
+Validation Loss: 884131730984796160.0000, Median Qerror on Validation Set: 3.4217
+No improvement in q-error for 16 epochs
+Epoch 55/1000, Training Loss: 7121125046000549888.0000
+Validation Loss: 876900930203680768.0000, Median Qerror on Validation Set: 3.3827
+No improvement in q-error for 17 epochs
+Epoch 56/1000, Training Loss: 7120153627477409792.0000
+Validation Loss: 871410518890381312.0000, Median Qerror on Validation Set: 3.3620
+No improvement in q-error for 18 epochs
+Epoch 57/1000, Training Loss: 7113343802210779136.0000
+Validation Loss: 866600155518861312.0000, Median Qerror on Validation Set: 3.3572
+No improvement in q-error for 19 epochs
+Epoch 58/1000, Training Loss: 7099885779886800896.0000
+Validation Loss: 862465442042609664.0000, Median Qerror on Validation Set: 3.3672
+No improvement in q-error for 20 epochs
+Epoch 59/1000, Training Loss: 7080168787621707776.0000
+Validation Loss: 859773837577814016.0000, Median Qerror on Validation Set: 3.3915
+No improvement in q-error for 21 epochs
+Epoch 60/1000, Training Loss: 7055458913054883840.0000
+Validation Loss: 859776861234790400.0000, Median Qerror on Validation Set: 3.4299
+No improvement in q-error for 22 epochs
+Epoch 61/1000, Training Loss: 7027625325953548288.0000
+Validation Loss: 863889790636916736.0000, Median Qerror on Validation Set: 3.4817
+No improvement in q-error for 23 epochs
+Epoch 62/1000, Training Loss: 6998865400305811456.0000
+Validation Loss: 873301266573295616.0000, Median Qerror on Validation Set: 3.5452
+No improvement in q-error for 24 epochs
+Epoch 63/1000, Training Loss: 6971371562297458688.0000
+Validation Loss: 888504488728461312.0000, Median Qerror on Validation Set: 3.6172
+No improvement in q-error for 25 epochs
+Epoch 64/1000, Training Loss: 6946925020765487104.0000
+Validation Loss: 908818584526913536.0000, Median Qerror on Validation Set: 3.6929
+No improvement in q-error for 26 epochs
+Epoch 65/1000, Training Loss: 6926437270849323008.0000
+Validation Loss: 932074698563387392.0000, Median Qerror on Validation Set: 3.7661
+No improvement in q-error for 27 epochs
+Epoch 66/1000, Training Loss: 6909588354665283584.0000
+Validation Loss: 954726424801968128.0000, Median Qerror on Validation Set: 3.8297
+No improvement in q-error for 28 epochs
+Epoch 67/1000, Training Loss: 6894789477911232512.0000
+Validation Loss: 972560640843448320.0000, Median Qerror on Validation Set: 3.8771
+No improvement in q-error for 29 epochs
+Epoch 68/1000, Training Loss: 6879644254994432000.0000
+Validation Loss: 981877627499315200.0000, Median Qerror on Validation Set: 3.9034
+No improvement in q-error for 30 epochs
+Early stopping triggered at epoch 68
+Early stopping at epoch 68
+Median Qerror on Validation Set: 3.3062
+
+Testing combination 6/9:
+Learning Rate: 0.01, Weight Decay: 0.0001, Hidden Dim: 128, Heads: 8
+Epoch 1/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779153300008992768.0000, Median Qerror on Validation Set: 25815278.0000
+Improved validation q-error to 25815278.0000
+Epoch 2/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779151925619458048.0000, Median Qerror on Validation Set: 1661576.0000
+Improved validation q-error to 1661576.0000
+Epoch 3/1000, Training Loss: 8659588653619609600.0000
+Validation Loss: 1779146015744458752.0000, Median Qerror on Validation Set: 309385.5000
+Improved validation q-error to 309385.5000
+Epoch 4/1000, Training Loss: 8659580957038215168.0000
+Validation Loss: 1779126774290972672.0000, Median Qerror on Validation Set: 84869.2969
+Improved validation q-error to 84869.2969
+Epoch 5/1000, Training Loss: 8659555118514962432.0000
+Validation Loss: 1779077571145629696.0000, Median Qerror on Validation Set: 29701.2227
+Improved validation q-error to 29701.2227
+Epoch 6/1000, Training Loss: 8659488048305668096.0000
+Validation Loss: 1778968856933433344.0000, Median Qerror on Validation Set: 12197.4297
+Improved validation q-error to 12197.4297
+Epoch 7/1000, Training Loss: 8659340163991732224.0000
+Validation Loss: 1778752665459621888.0000, Median Qerror on Validation Set: 5617.9893
+Improved validation q-error to 5617.9893
+Epoch 8/1000, Training Loss: 8659045494875488256.0000
+Validation Loss: 1778355879200948224.0000, Median Qerror on Validation Set: 2822.6550
+Improved validation q-error to 2822.6550
+Epoch 9/1000, Training Loss: 8658504535154622464.0000
+Validation Loss: 1777670333701029888.0000, Median Qerror on Validation Set: 1517.7634
+Improved validation q-error to 1517.7634
+Epoch 10/1000, Training Loss: 8657569950271012864.0000
+Validation Loss: 1776542509648838656.0000, Median Qerror on Validation Set: 861.8249
+Improved validation q-error to 861.8249
+Epoch 11/1000, Training Loss: 8656032283259568128.0000
+Validation Loss: 1774759239227539456.0000, Median Qerror on Validation Set: 511.7664
+Improved validation q-error to 511.7664
+Epoch 12/1000, Training Loss: 8653597964515672064.0000
+Validation Loss: 1772031488317980672.0000, Median Qerror on Validation Set: 315.5038
+Improved validation q-error to 315.5038
+Epoch 13/1000, Training Loss: 8649875018144022528.0000
+Validation Loss: 1767979100774858752.0000, Median Qerror on Validation Set: 200.8197
+Improved validation q-error to 200.8197
+Epoch 14/1000, Training Loss: 8644338427342356480.0000
+Validation Loss: 1762107846121488384.0000, Median Qerror on Validation Set: 131.3879
+Improved validation q-error to 131.3879
+Epoch 15/1000, Training Loss: 8636305395389825024.0000
+Validation Loss: 1753785230293991424.0000, Median Qerror on Validation Set: 88.0415
+Improved validation q-error to 88.0415
+Epoch 16/1000, Training Loss: 8624905109077229568.0000
+Validation Loss: 1742222216260485120.0000, Median Qerror on Validation Set: 60.2476
+Improved validation q-error to 60.2476
+Epoch 17/1000, Training Loss: 8609041905067491328.0000
+Validation Loss: 1726452883055968256.0000, Median Qerror on Validation Set: 42.0019
+Improved validation q-error to 42.0019
+Epoch 18/1000, Training Loss: 8587362284546818048.0000
+Validation Loss: 1705323018349182976.0000, Median Qerror on Validation Set: 29.7717
+Improved validation q-error to 29.7717
+Epoch 19/1000, Training Loss: 8558237321038659584.0000
+Validation Loss: 1677493416977498112.0000, Median Qerror on Validation Set: 21.4188
+Improved validation q-error to 21.4188
+Epoch 20/1000, Training Loss: 8519744518461849600.0000
+Validation Loss: 1641460909106790400.0000, Median Qerror on Validation Set: 15.6161
+Improved validation q-error to 15.6161
+Epoch 21/1000, Training Loss: 8469685403316649984.0000
+Validation Loss: 1595589696312836096.0000, Median Qerror on Validation Set: 11.5197
+Improved validation q-error to 11.5197
+Epoch 22/1000, Training Loss: 8405647647091720192.0000
+Validation Loss: 1538291396610359296.0000, Median Qerror on Validation Set: 8.5882
+Improved validation q-error to 8.5882
+Epoch 23/1000, Training Loss: 8325124913031544832.0000
+Validation Loss: 1468353386112876544.0000, Median Qerror on Validation Set: 6.4661
+Improved validation q-error to 6.4661
+Epoch 24/1000, Training Loss: 8225782388194541568.0000
+Validation Loss: 1385322528590790656.0000, Median Qerror on Validation Set: 5.1175
+Improved validation q-error to 5.1175
+Epoch 25/1000, Training Loss: 8105904284685565952.0000
+Validation Loss: 1290221782174793728.0000, Median Qerror on Validation Set: 4.2474
+Improved validation q-error to 4.2474
+Epoch 26/1000, Training Loss: 7965138758783729664.0000
+Validation Loss: 1186719667410960384.0000, Median Qerror on Validation Set: 3.6923
+Improved validation q-error to 3.6923
+Epoch 27/1000, Training Loss: 7805711771779465216.0000
+Validation Loss: 1082983081792503808.0000, Median Qerror on Validation Set: 3.3903
+Improved validation q-error to 3.3903
+Epoch 28/1000, Training Loss: 7634347936788250624.0000
+Validation Loss: 994482772397522944.0000, Median Qerror on Validation Set: 3.3027
+Improved validation q-error to 3.3027
+Epoch 29/1000, Training Loss: 7465212262110724096.0000
+Validation Loss: 947085506183692288.0000, Median Qerror on Validation Set: 3.4048
+No improvement in q-error for 1 epochs
+Epoch 30/1000, Training Loss: 7323843654081052672.0000
+Validation Loss: 977368667752759296.0000, Median Qerror on Validation Set: 3.6730
+No improvement in q-error for 2 epochs
+Epoch 31/1000, Training Loss: 7249606827996872704.0000
+Validation Loss: 1116083329590886400.0000, Median Qerror on Validation Set: 4.0566
+No improvement in q-error for 3 epochs
+Epoch 32/1000, Training Loss: 7282877500097560576.0000
+Validation Loss: 1312350828073320448.0000, Median Qerror on Validation Set: 4.4124
+No improvement in q-error for 4 epochs
+Epoch 33/1000, Training Loss: 7394853413537710080.0000
+Validation Loss: 1416686372651008000.0000, Median Qerror on Validation Set: 4.5694
+No improvement in q-error for 5 epochs
+Epoch 34/1000, Training Loss: 7455695988972322816.0000
+Validation Loss: 1381874047809224704.0000, Median Qerror on Validation Set: 4.5216
+No improvement in q-error for 6 epochs
+Epoch 35/1000, Training Loss: 7414122354814484480.0000
+Validation Loss: 1264625976113889280.0000, Median Qerror on Validation Set: 4.3453
+No improvement in q-error for 7 epochs
+Epoch 36/1000, Training Loss: 7316177859012198400.0000
+Validation Loss: 1130446112545570816.0000, Median Qerror on Validation Set: 4.1133
+No improvement in q-error for 8 epochs
+Epoch 37/1000, Training Loss: 7218144852523876352.0000
+Validation Loss: 1019806930366889984.0000, Median Qerror on Validation Set: 3.8795
+No improvement in q-error for 9 epochs
+Epoch 38/1000, Training Loss: 7151930063275950080.0000
+Validation Loss: 946178477810253824.0000, Median Qerror on Validation Set: 3.6776
+No improvement in q-error for 10 epochs
+Epoch 39/1000, Training Loss: 7123113512779382784.0000
+Validation Loss: 905189921277345792.0000, Median Qerror on Validation Set: 3.5222
+No improvement in q-error for 11 epochs
+Epoch 40/1000, Training Loss: 7121104705035436032.0000
+Validation Loss: 885571678900322304.0000, Median Qerror on Validation Set: 3.4133
+No improvement in q-error for 12 epochs
+Epoch 41/1000, Training Loss: 7130727630801731584.0000
+Validation Loss: 876563929889767424.0000, Median Qerror on Validation Set: 3.3432
+No improvement in q-error for 13 epochs
+Epoch 42/1000, Training Loss: 7139398379498373120.0000
+Validation Loss: 870843583207309312.0000, Median Qerror on Validation Set: 3.3031
+No improvement in q-error for 14 epochs
+Epoch 43/1000, Training Loss: 7139327460998381568.0000
+Validation Loss: 864714218199318528.0000, Median Qerror on Validation Set: 3.2867
+Improved validation q-error to 3.2867
+Epoch 44/1000, Training Loss: 7127026674662637568.0000
+Validation Loss: 857376352473448448.0000, Median Qerror on Validation Set: 3.2914
+No improvement in q-error for 1 epochs
+Epoch 45/1000, Training Loss: 7102144726526066688.0000
+Validation Loss: 850179773991747584.0000, Median Qerror on Validation Set: 3.3172
+No improvement in q-error for 2 epochs
+Epoch 46/1000, Training Loss: 7066610159983788032.0000
+Validation Loss: 846002798037303296.0000, Median Qerror on Validation Set: 3.3657
+No improvement in q-error for 3 epochs
+Epoch 47/1000, Training Loss: 7023992539535376384.0000
+Validation Loss: 848626851256467456.0000, Median Qerror on Validation Set: 3.4379
+No improvement in q-error for 4 epochs
+Epoch 48/1000, Training Loss: 6979052200773287936.0000
+Validation Loss: 861755020092112896.0000, Median Qerror on Validation Set: 3.5325
+No improvement in q-error for 5 epochs
+Epoch 49/1000, Training Loss: 6937037662452711424.0000
+Validation Loss: 887454111526551552.0000, Median Qerror on Validation Set: 3.6438
+No improvement in q-error for 6 epochs
+Epoch 50/1000, Training Loss: 6902398098375442432.0000
+Validation Loss: 924210716523626496.0000, Median Qerror on Validation Set: 3.7609
+No improvement in q-error for 7 epochs
+Epoch 51/1000, Training Loss: 6877033464634277888.0000
+Validation Loss: 965439104030343168.0000, Median Qerror on Validation Set: 3.8685
+No improvement in q-error for 8 epochs
+Epoch 52/1000, Training Loss: 6858718349694599168.0000
+Validation Loss: 1000248267776196608.0000, Median Qerror on Validation Set: 3.9492
+No improvement in q-error for 9 epochs
+Epoch 53/1000, Training Loss: 6841275697231560704.0000
+Validation Loss: 1017508332589547520.0000, Median Qerror on Validation Set: 3.9895
+No improvement in q-error for 10 epochs
+Epoch 54/1000, Training Loss: 6817485014385557504.0000
+Validation Loss: 1011174664577220608.0000, Median Qerror on Validation Set: 3.9841
+No improvement in q-error for 11 epochs
+Epoch 55/1000, Training Loss: 6783234127668707328.0000
+Validation Loss: 982933296100933632.0000, Median Qerror on Validation Set: 3.9372
+No improvement in q-error for 12 epochs
+Epoch 56/1000, Training Loss: 6739624747732041728.0000
+Validation Loss: 940321997844381696.0000, Median Qerror on Validation Set: 3.8602
+No improvement in q-error for 13 epochs
+Epoch 57/1000, Training Loss: 6691349590202908672.0000
+Validation Loss: 892489118867521536.0000, Median Qerror on Validation Set: 3.7677
+No improvement in q-error for 14 epochs
+Epoch 58/1000, Training Loss: 6643232762348175360.0000
+Validation Loss: 846648005204377600.0000, Median Qerror on Validation Set: 3.6729
+No improvement in q-error for 15 epochs
+Epoch 59/1000, Training Loss: 6597653057574535168.0000
+Validation Loss: 806696494294892544.0000, Median Qerror on Validation Set: 3.5863
+No improvement in q-error for 16 epochs
+Epoch 60/1000, Training Loss: 6553941972812300288.0000
+Validation Loss: 773715199910739968.0000, Median Qerror on Validation Set: 3.5143
+No improvement in q-error for 17 epochs
+Epoch 61/1000, Training Loss: 6509377667026911232.0000
+Validation Loss: 747249405274357760.0000, Median Qerror on Validation Set: 3.4605
+No improvement in q-error for 18 epochs
+Epoch 62/1000, Training Loss: 6460537910276915200.0000
+Validation Loss: 726387409087889408.0000, Median Qerror on Validation Set: 3.4260
+No improvement in q-error for 19 epochs
+Epoch 63/1000, Training Loss: 6404438078248714240.0000
+Validation Loss: 710596772845584384.0000, Median Qerror on Validation Set: 3.4104
+No improvement in q-error for 20 epochs
+Epoch 64/1000, Training Loss: 6339635611686666240.0000
+Validation Loss: 700176151393337344.0000, Median Qerror on Validation Set: 3.4130
+No improvement in q-error for 21 epochs
+Epoch 65/1000, Training Loss: 6267247064648777728.0000
+Validation Loss: 696561850514407424.0000, Median Qerror on Validation Set: 3.4334
+No improvement in q-error for 22 epochs
+Epoch 66/1000, Training Loss: 6189757333413822464.0000
+Validation Loss: 702752856893030400.0000, Median Qerror on Validation Set: 3.4728
+No improvement in q-error for 23 epochs
+Epoch 67/1000, Training Loss: 6109184571574583296.0000
+Validation Loss: 725086274515369984.0000, Median Qerror on Validation Set: 3.5378
+No improvement in q-error for 24 epochs
+Epoch 68/1000, Training Loss: 6029927375397978112.0000
+Validation Loss: 755414035024838656.0000, Median Qerror on Validation Set: 3.6079
+No improvement in q-error for 25 epochs
+Epoch 69/1000, Training Loss: 5949048399570403328.0000
+Validation Loss: 785117547807637504.0000, Median Qerror on Validation Set: 3.6669
+No improvement in q-error for 26 epochs
+Epoch 70/1000, Training Loss: 5869521273289179136.0000
+Validation Loss: 809030070285893632.0000, Median Qerror on Validation Set: 3.7065
+No improvement in q-error for 27 epochs
+Epoch 71/1000, Training Loss: 5787949055380291584.0000
+Validation Loss: 817578704472375296.0000, Median Qerror on Validation Set: 3.7148
+No improvement in q-error for 28 epochs
+Epoch 72/1000, Training Loss: 5696974913542291456.0000
+Validation Loss: 801878846658838528.0000, Median Qerror on Validation Set: 3.6816
+No improvement in q-error for 29 epochs
+Epoch 73/1000, Training Loss: 5594020493008044032.0000
+Validation Loss: 764741879358029824.0000, Median Qerror on Validation Set: 3.6132
+No improvement in q-error for 30 epochs
+Early stopping triggered at epoch 73
+Early stopping at epoch 73
+Median Qerror on Validation Set: 3.2867
+New best q-error: 3.2867 with parameters {'learning_rate': 0.01, 'weight_decay': 0.0001, 'hidden_dim': 128, 'heads': 8}
+
+Testing combination 7/9:
+Learning Rate: 0.01, Weight Decay: 0.0001, Hidden Dim: 256, Heads: 2
+Epoch 1/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779153300008992768.0000, Median Qerror on Validation Set: 110006336.0000
+Improved validation q-error to 110006336.0000
+Epoch 2/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779153025131085824.0000, Median Qerror on Validation Set: 7716053.0000
+Improved validation q-error to 7716053.0000
+Epoch 3/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779151925619458048.0000, Median Qerror on Validation Set: 1475104.5000
+Improved validation q-error to 1475104.5000
+Epoch 4/1000, Training Loss: 8659588653619609600.0000
+Validation Loss: 1779147939889807360.0000, Median Qerror on Validation Set: 413604.4375
+Improved validation q-error to 413604.4375
+Epoch 5/1000, Training Loss: 8659583156061470720.0000
+Validation Loss: 1779137769407250432.0000, Median Qerror on Validation Set: 146044.0000
+Improved validation q-error to 146044.0000
+Epoch 6/1000, Training Loss: 8659570511677751296.0000
+Validation Loss: 1779116054052601856.0000, Median Qerror on Validation Set: 60081.5586
+Improved validation q-error to 60081.5586
+Epoch 7/1000, Training Loss: 8659539725352173568.0000
+Validation Loss: 1779071798709583872.0000, Median Qerror on Validation Set: 27600.0820
+Improved validation q-error to 27600.0820
+Epoch 8/1000, Training Loss: 8659479252212645888.0000
+Validation Loss: 1778990159971221504.0000, Median Qerror on Validation Set: 13795.4551
+Improved validation q-error to 13795.4551
+Epoch 9/1000, Training Loss: 8659367651782426624.0000
+Validation Loss: 1778847773215424512.0000, Median Qerror on Validation Set: 7368.7192
+Improved validation q-error to 7368.7192
+Epoch 10/1000, Training Loss: 8659174137735938048.0000
+Validation Loss: 1778611240776499200.0000, Median Qerror on Validation Set: 4153.2524
+Improved validation q-error to 4153.2524
+Epoch 11/1000, Training Loss: 8658850331561558016.0000
+Validation Loss: 1778233558532358144.0000, Median Qerror on Validation Set: 2447.6050
+Improved validation q-error to 2447.6050
+Epoch 12/1000, Training Loss: 8658335760119758848.0000
+Validation Loss: 1777650405052776448.0000, Median Qerror on Validation Set: 1497.6973
+Improved validation q-error to 1497.6973
+Epoch 13/1000, Training Loss: 8657539713701249024.0000
+Validation Loss: 1776775468674973696.0000, Median Qerror on Validation Set: 946.4036
+Improved validation q-error to 946.4036
+Epoch 14/1000, Training Loss: 8656345094317670400.0000
+Validation Loss: 1775495362262335488.0000, Median Qerror on Validation Set: 614.9131
+Improved validation q-error to 614.9131
+Epoch 15/1000, Training Loss: 8654596870829506560.0000
+Validation Loss: 1773661239428251648.0000, Median Qerror on Validation Set: 409.3521
+Improved validation q-error to 409.3521
+Epoch 16/1000, Training Loss: 8652092733097246720.0000
+Validation Loss: 1771085221123325952.0000, Median Qerror on Validation Set: 278.4178
+Improved validation q-error to 278.4178
+Epoch 17/1000, Training Loss: 8648570447597666304.0000
+Validation Loss: 1767529263080144896.0000, Median Qerror on Validation Set: 193.0207
+Improved validation q-error to 193.0207
+Epoch 18/1000, Training Loss: 8643707307668013056.0000
+Validation Loss: 1762697596670836736.0000, Median Qerror on Validation Set: 136.1255
+Improved validation q-error to 136.1255
+Epoch 19/1000, Training Loss: 8637092645715312640.0000
+Validation Loss: 1756224909157072896.0000, Median Qerror on Validation Set: 97.4892
+Improved validation q-error to 97.4892
+Epoch 20/1000, Training Loss: 8628221785902415872.0000
+Validation Loss: 1747669471742394368.0000, Median Qerror on Validation Set: 70.7984
+Improved validation q-error to 70.7984
+Epoch 21/1000, Training Loss: 8616484499275907072.0000
+Validation Loss: 1736502969089654784.0000, Median Qerror on Validation Set: 52.0715
+Improved validation q-error to 52.0715
+Epoch 22/1000, Training Loss: 8601141364266106880.0000
+Validation Loss: 1722104177129160704.0000, Median Qerror on Validation Set: 38.7449
+Improved validation q-error to 38.7449
+Epoch 23/1000, Training Loss: 8581321017908002816.0000
+Validation Loss: 1703755252206927872.0000, Median Qerror on Validation Set: 29.1375
+Improved validation q-error to 29.1375
+Epoch 24/1000, Training Loss: 8556006411945902080.0000
+Validation Loss: 1680645579375378432.0000, Median Qerror on Validation Set: 22.1281
+Improved validation q-error to 22.1281
+Epoch 25/1000, Training Loss: 8524030414786920448.0000
+Validation Loss: 1651880156169502720.0000, Median Qerror on Validation Set: 16.9569
+Improved validation q-error to 16.9569
+Epoch 26/1000, Training Loss: 8484090654907957248.0000
+Validation Loss: 1616492924185346048.0000, Median Qerror on Validation Set: 13.1007
+Improved validation q-error to 13.1007
+Epoch 27/1000, Training Loss: 8434764364262670336.0000
+Validation Loss: 1573497621492793344.0000, Median Qerror on Validation Set: 10.1970
+Improved validation q-error to 10.1970
+Epoch 28/1000, Training Loss: 8374556207037284352.0000
+Validation Loss: 1522030994025086976.0000, Median Qerror on Validation Set: 7.9930
+Improved validation q-error to 7.9930
+Epoch 29/1000, Training Loss: 8301995586429648896.0000
+Validation Loss: 1461476353197998080.0000, Median Qerror on Validation Set: 6.3075
+Improved validation q-error to 6.3075
+Epoch 30/1000, Training Loss: 8215765287509688320.0000
+Validation Loss: 1391664374220849152.0000, Median Qerror on Validation Set: 5.1937
+Improved validation q-error to 5.1937
+Epoch 31/1000, Training Loss: 8114940071242629120.0000
+Validation Loss: 1313202537267986432.0000, Median Qerror on Validation Set: 4.4180
+Improved validation q-error to 4.4180
+Epoch 32/1000, Training Loss: 7999317077733146624.0000
+Validation Loss: 1227958775156047872.0000, Median Qerror on Validation Set: 3.8770
+Improved validation q-error to 3.8770
+Epoch 33/1000, Training Loss: 7869926549376466944.0000
+Validation Loss: 1139766603894751232.0000, Median Qerror on Validation Set: 3.5288
+Improved validation q-error to 3.5288
+Epoch 34/1000, Training Loss: 7729771252428046336.0000
+Validation Loss: 1055427258816135168.0000, Median Qerror on Validation Set: 3.3445
+Improved validation q-error to 3.3445
+Epoch 35/1000, Training Loss: 7584882008166236160.0000
+Validation Loss: 985950837043888128.0000, Median Qerror on Validation Set: 3.3043
+Improved validation q-error to 3.3043
+Epoch 36/1000, Training Loss: 7445689333647933440.0000
+Validation Loss: 947459065259229184.0000, Median Qerror on Validation Set: 3.3936
+No improvement in q-error for 1 epochs
+Epoch 37/1000, Training Loss: 7328530322394447872.0000
+Validation Loss: 960492057619595264.0000, Median Qerror on Validation Set: 3.5967
+No improvement in q-error for 2 epochs
+Epoch 38/1000, Training Loss: 7255915825717051392.0000
+Validation Loss: 1043192168300150784.0000, Median Qerror on Validation Set: 3.8858
+No improvement in q-error for 3 epochs
+Epoch 39/1000, Training Loss: 7251119755996692480.0000
+Validation Loss: 1185356822748332032.0000, Median Qerror on Validation Set: 4.1962
+No improvement in q-error for 4 epochs
+Epoch 40/1000, Training Loss: 7314553330582159360.0000
+Validation Loss: 1317512760287821824.0000, Median Qerror on Validation Set: 4.4218
+No improvement in q-error for 5 epochs
+Epoch 41/1000, Training Loss: 7390951246770733056.0000
+Validation Loss: 1366345095334330368.0000, Median Qerror on Validation Set: 4.4976
+No improvement in q-error for 6 epochs
+Epoch 42/1000, Training Loss: 7412945877372764160.0000
+Validation Loss: 1326632247167549440.0000, Median Qerror on Validation Set: 4.4402
+No improvement in q-error for 7 epochs
+Epoch 43/1000, Training Loss: 7371161686738206720.0000
+Validation Loss: 1234833746486624256.0000, Median Qerror on Validation Set: 4.2965
+No improvement in q-error for 8 epochs
+Epoch 44/1000, Training Loss: 7295645029119295488.0000
+Validation Loss: 1129831073228783616.0000, Median Qerror on Validation Set: 4.1116
+No improvement in q-error for 9 epochs
+Epoch 45/1000, Training Loss: 7219257558291185664.0000
+Validation Loss: 1037600876795002880.0000, Median Qerror on Validation Set: 3.9205
+No improvement in q-error for 10 epochs
+Epoch 46/1000, Training Loss: 7162274818425880576.0000
+Validation Loss: 969342164150517760.0000, Median Qerror on Validation Set: 3.7473
+No improvement in q-error for 11 epochs
+Epoch 47/1000, Training Loss: 7130596788918026240.0000
+Validation Loss: 925206874058391552.0000, Median Qerror on Validation Set: 3.6047
+No improvement in q-error for 12 epochs
+Epoch 48/1000, Training Loss: 7119957914407665664.0000
+Validation Loss: 899625773965508608.0000, Median Qerror on Validation Set: 3.4962
+No improvement in q-error for 13 epochs
+Epoch 49/1000, Training Loss: 7121642366221418496.0000
+Validation Loss: 885711729193910272.0000, Median Qerror on Validation Set: 3.4195
+No improvement in q-error for 14 epochs
+Epoch 50/1000, Training Loss: 7126928818127765504.0000
+Validation Loss: 877735940565499904.0000, Median Qerror on Validation Set: 3.3695
+No improvement in q-error for 15 epochs
+Epoch 51/1000, Training Loss: 7129295516906553344.0000
+Validation Loss: 871961236776943616.0000, Median Qerror on Validation Set: 3.3414
+No improvement in q-error for 16 epochs
+Epoch 52/1000, Training Loss: 7124876029918707712.0000
+Validation Loss: 866578302725259264.0000, Median Qerror on Validation Set: 3.3319
+No improvement in q-error for 17 epochs
+Epoch 53/1000, Training Loss: 7112094757001625600.0000
+Validation Loss: 861337892868325376.0000, Median Qerror on Validation Set: 3.3393
+No improvement in q-error for 18 epochs
+Epoch 54/1000, Training Loss: 7091115525387845632.0000
+Validation Loss: 857148753566498816.0000, Median Qerror on Validation Set: 3.3634
+No improvement in q-error for 19 epochs
+Epoch 55/1000, Training Loss: 7063375946530684928.0000
+Validation Loss: 855698566448939008.0000, Median Qerror on Validation Set: 3.4042
+No improvement in q-error for 20 epochs
+Epoch 56/1000, Training Loss: 7031216880685678592.0000
+Validation Loss: 859038951493599232.0000, Median Qerror on Validation Set: 3.4615
+No improvement in q-error for 21 epochs
+Epoch 57/1000, Training Loss: 6997547085864108032.0000
+Validation Loss: 869044644745314304.0000, Median Qerror on Validation Set: 3.5339
+No improvement in q-error for 22 epochs
+Epoch 58/1000, Training Loss: 6965399564891193344.0000
+Validation Loss: 886707611850768384.0000, Median Qerror on Validation Set: 3.6176
+No improvement in q-error for 23 epochs
+Epoch 59/1000, Training Loss: 6937335080348024832.0000
+Validation Loss: 911327257744637952.0000, Median Qerror on Validation Set: 3.7064
+No improvement in q-error for 24 epochs
+Epoch 60/1000, Training Loss: 6914691188129792000.0000
+Validation Loss: 939916140614778880.0000, Median Qerror on Validation Set: 3.7919
+No improvement in q-error for 25 epochs
+Epoch 61/1000, Training Loss: 6896953866550509568.0000
+Validation Loss: 967317825804828672.0000, Median Qerror on Validation Set: 3.8643
+No improvement in q-error for 26 epochs
+Epoch 62/1000, Training Loss: 6881640418354659328.0000
+Validation Loss: 987433597193420800.0000, Median Qerror on Validation Set: 3.9147
+No improvement in q-error for 27 epochs
+Epoch 63/1000, Training Loss: 6865110910298488832.0000
+Validation Loss: 995274352050044928.0000, Median Qerror on Validation Set: 3.9372
+No improvement in q-error for 28 epochs
+Epoch 64/1000, Training Loss: 6844114636254478336.0000
+Validation Loss: 988783316435992576.0000, Median Qerror on Validation Set: 3.9303
+No improvement in q-error for 29 epochs
+Epoch 65/1000, Training Loss: 6817222780862332928.0000
+Validation Loss: 969355976765341696.0000, Median Qerror on Validation Set: 3.8973
+No improvement in q-error for 30 epochs
+Early stopping triggered at epoch 65
+Early stopping at epoch 65
+Median Qerror on Validation Set: 3.3043
+
+Testing combination 8/9:
+Learning Rate: 0.01, Weight Decay: 0.0001, Hidden Dim: 256, Heads: 4
+Epoch 1/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779153300008992768.0000, Median Qerror on Validation Set: 22344838.0000
+Improved validation q-error to 22344838.0000
+Epoch 2/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779151788180504576.0000, Median Qerror on Validation Set: 1340002.1250
+Improved validation q-error to 1340002.1250
+Epoch 3/1000, Training Loss: 8659588653619609600.0000
+Validation Loss: 1779144091599110144.0000, Median Qerror on Validation Set: 241360.7188
+Improved validation q-error to 241360.7188
+Epoch 4/1000, Training Loss: 8659577658503331840.0000
+Validation Loss: 1779118665392717824.0000, Median Qerror on Validation Set: 64754.5469
+Improved validation q-error to 64754.5469
+Epoch 5/1000, Training Loss: 8659543023887056896.0000
+Validation Loss: 1779051732622376960.0000, Median Qerror on Validation Set: 22175.0059
+Improved validation q-error to 22175.0059
+Epoch 6/1000, Training Loss: 8659452314177765376.0000
+Validation Loss: 1778901236968325120.0000, Median Qerror on Validation Set: 8931.6719
+Improved validation q-error to 8931.6719
+Epoch 7/1000, Training Loss: 8659246705503371264.0000
+Validation Loss: 1778597359442198528.0000, Median Qerror on Validation Set: 4048.8645
+Improved validation q-error to 4048.8645
+Epoch 8/1000, Training Loss: 8658831090108071936.0000
+Validation Loss: 1778031660709707776.0000, Median Qerror on Validation Set: 2006.7635
+Improved validation q-error to 2006.7635
+Epoch 9/1000, Training Loss: 8658058683189559296.0000
+Validation Loss: 1777043062317383680.0000, Median Qerror on Validation Set: 1066.4873
+Improved validation q-error to 1066.4873
+Epoch 10/1000, Training Loss: 8656709582422278144.0000
+Validation Loss: 1775400666823393280.0000, Median Qerror on Validation Set: 599.4272
+Improved validation q-error to 599.4272
+Epoch 11/1000, Training Loss: 8654467128457428992.0000
+Validation Loss: 1772782454759751680.0000, Median Qerror on Validation Set: 352.7854
+Improved validation q-error to 352.7854
+Epoch 12/1000, Training Loss: 8650889317620645888.0000
+Validation Loss: 1768751232815464448.0000, Median Qerror on Validation Set: 215.7915
+Improved validation q-error to 215.7915
+Epoch 13/1000, Training Loss: 8645379115098046464.0000
+Validation Loss: 1762727970679554048.0000, Median Qerror on Validation Set: 136.3852
+Improved validation q-error to 136.3852
+Epoch 14/1000, Training Loss: 8637133327645540352.0000
+Validation Loss: 1753959502886993920.0000, Median Qerror on Validation Set: 88.6588
+Improved validation q-error to 88.6588
+Epoch 15/1000, Training Loss: 8625114016286507008.0000
+Validation Loss: 1741487605054177280.0000, Median Qerror on Validation Set: 59.0607
+Improved validation q-error to 59.0607
+Epoch 16/1000, Training Loss: 8607990771951337472.0000
+Validation Loss: 1724127553402175488.0000, Median Qerror on Validation Set: 40.1973
+Improved validation q-error to 40.1973
+Epoch 17/1000, Training Loss: 8584106080861159424.0000
+Validation Loss: 1700448745864298496.0000, Median Qerror on Validation Set: 27.8829
+Improved validation q-error to 27.8829
+Epoch 18/1000, Training Loss: 8551432443574353920.0000
+Validation Loss: 1668785147446558720.0000, Median Qerror on Validation Set: 19.6701
+Improved validation q-error to 19.6701
+Epoch 19/1000, Training Loss: 8507570725719113728.0000
+Validation Loss: 1627269100210225152.0000, Median Qerror on Validation Set: 14.0853
+Improved validation q-error to 14.0853
+Epoch 20/1000, Training Loss: 8449778195539951616.0000
+Validation Loss: 1573895369824141312.0000, Median Qerror on Validation Set: 10.2182
+Improved validation q-error to 10.2182
+Epoch 21/1000, Training Loss: 8375065280920944640.0000
+Validation Loss: 1506868316361195520.0000, Median Qerror on Validation Set: 7.5011
+Improved validation q-error to 7.5011
+Epoch 22/1000, Training Loss: 8280422068781056000.0000
+Validation Loss: 1425053656138383360.0000, Median Qerror on Validation Set: 5.6475
+Improved validation q-error to 5.6475
+Epoch 23/1000, Training Loss: 8163269104841523200.0000
+Validation Loss: 1328694106347536384.0000, Median Qerror on Validation Set: 4.5461
+Improved validation q-error to 4.5461
+Epoch 24/1000, Training Loss: 8022234748346695680.0000
+Validation Loss: 1220698699877842944.0000, Median Qerror on Validation Set: 3.8419
+Improved validation q-error to 3.8419
+Epoch 25/1000, Training Loss: 7858489429424340992.0000
+Validation Loss: 1108781129273442304.0000, Median Qerror on Validation Set: 3.4463
+Improved validation q-error to 3.4463
+Epoch 26/1000, Training Loss: 7677960615259799552.0000
+Validation Loss: 1008921559093477376.0000, Median Qerror on Validation Set: 3.3052
+Improved validation q-error to 3.3052
+Epoch 27/1000, Training Loss: 7494921066293231616.0000
+Validation Loss: 949900255950798848.0000, Median Qerror on Validation Set: 3.3861
+No improvement in q-error for 1 epochs
+Epoch 28/1000, Training Loss: 7337251098870153216.0000
+Validation Loss: 975477026716647424.0000, Median Qerror on Validation Set: 3.6625
+No improvement in q-error for 2 epochs
+Epoch 29/1000, Training Loss: 7251207716926914560.0000
+Validation Loss: 1126913862721863680.0000, Median Qerror on Validation Set: 4.0785
+No improvement in q-error for 3 epochs
+Epoch 30/1000, Training Loss: 7288802768259645440.0000
+Validation Loss: 1342861038793523200.0000, Median Qerror on Validation Set: 4.4592
+No improvement in q-error for 4 epochs
+Epoch 31/1000, Training Loss: 7415722144232898560.0000
+Validation Loss: 1440083567773220864.0000, Median Qerror on Validation Set: 4.6021
+No improvement in q-error for 5 epochs
+Epoch 32/1000, Training Loss: 7471370626737897472.0000
+Validation Loss: 1381490455690084352.0000, Median Qerror on Validation Set: 4.5211
+No improvement in q-error for 6 epochs
+Epoch 33/1000, Training Loss: 7411096498814844928.0000
+Validation Loss: 1243790780523347968.0000, Median Qerror on Validation Set: 4.3116
+No improvement in q-error for 7 epochs
+Epoch 34/1000, Training Loss: 7298927621084020736.0000
+Validation Loss: 1101026067604307968.0000, Median Qerror on Validation Set: 4.0556
+No improvement in q-error for 8 epochs
+Epoch 35/1000, Training Loss: 7198383879793672192.0000
+Validation Loss: 992793853817782272.0000, Median Qerror on Validation Set: 3.8109
+No improvement in q-error for 9 epochs
+Epoch 36/1000, Training Loss: 7139190022044909568.0000
+Validation Loss: 927168952558157824.0000, Median Qerror on Validation Set: 3.6102
+No improvement in q-error for 10 epochs
+Epoch 37/1000, Training Loss: 7120634114058747904.0000
+Validation Loss: 894497514294607872.0000, Median Qerror on Validation Set: 3.4637
+No improvement in q-error for 11 epochs
+Epoch 38/1000, Training Loss: 7126672082162679808.0000
+Validation Loss: 880654388023001088.0000, Median Qerror on Validation Set: 3.3665
+No improvement in q-error for 12 epochs
+Epoch 39/1000, Training Loss: 7139641921323925504.0000
+Validation Loss: 874296187157479424.0000, Median Qerror on Validation Set: 3.3078
+No improvement in q-error for 13 epochs
+Epoch 40/1000, Training Loss: 7146885503927713792.0000
+Validation Loss: 868746608374710272.0000, Median Qerror on Validation Set: 3.2780
+Improved validation q-error to 3.2780
+Epoch 41/1000, Training Loss: 7141640283707408384.0000
+Validation Loss: 861413209414828032.0000, Median Qerror on Validation Set: 3.2716
+Improved validation q-error to 3.2716
+Epoch 42/1000, Training Loss: 7121721531058618368.0000
+Validation Loss: 852757372844638208.0000, Median Qerror on Validation Set: 3.2876
+No improvement in q-error for 1 epochs
+Epoch 43/1000, Training Loss: 7088137498144014336.0000
+Validation Loss: 845471802640564224.0000, Median Qerror on Validation Set: 3.3278
+No improvement in q-error for 2 epochs
+Epoch 44/1000, Training Loss: 7044198814474829824.0000
+Validation Loss: 843794085335531520.0000, Median Qerror on Validation Set: 3.3943
+No improvement in q-error for 3 epochs
+Epoch 45/1000, Training Loss: 6994989621817901056.0000
+Validation Loss: 852578083729833984.0000, Median Qerror on Validation Set: 3.4878
+No improvement in q-error for 4 epochs
+Epoch 46/1000, Training Loss: 6946720511602720768.0000
+Validation Loss: 875668515107897344.0000, Median Qerror on Validation Set: 3.6040
+No improvement in q-error for 5 epochs
+Epoch 47/1000, Training Loss: 6905495422630887424.0000
+Validation Loss: 913385337353404416.0000, Median Qerror on Validation Set: 3.7327
+No improvement in q-error for 6 epochs
+Epoch 48/1000, Training Loss: 6875165394378686464.0000
+Validation Loss: 959884646164725760.0000, Median Qerror on Validation Set: 3.8568
+No improvement in q-error for 7 epochs
+Epoch 49/1000, Training Loss: 6854805737567158272.0000
+Validation Loss: 1002743334537527296.0000, Median Qerror on Validation Set: 3.9551
+No improvement in q-error for 8 epochs
+Epoch 50/1000, Training Loss: 6837768255138955264.0000
+Validation Loss: 1027257221156700160.0000, Median Qerror on Validation Set: 4.0090
+No improvement in q-error for 9 epochs
+Epoch 51/1000, Training Loss: 6814604843676598272.0000
+Validation Loss: 1024036889037897728.0000, Median Qerror on Validation Set: 4.0095
+No improvement in q-error for 10 epochs
+Epoch 52/1000, Training Loss: 6778975169378516992.0000
+Validation Loss: 993838389864169472.0000, Median Qerror on Validation Set: 3.9603
+No improvement in q-error for 11 epochs
+Epoch 53/1000, Training Loss: 6731431736837668864.0000
+Validation Loss: 945777156066115584.0000, Median Qerror on Validation Set: 3.8748
+No improvement in q-error for 12 epochs
+Epoch 54/1000, Training Loss: 6677870677158002688.0000
+Validation Loss: 891469527991189504.0000, Median Qerror on Validation Set: 3.7707
+No improvement in q-error for 13 epochs
+Epoch 55/1000, Training Loss: 6624679053385269248.0000
+Validation Loss: 839972595234242560.0000, Median Qerror on Validation Set: 3.6643
+No improvement in q-error for 14 epochs
+Epoch 56/1000, Training Loss: 6574986075612119040.0000
+Validation Loss: 795882041521471488.0000, Median Qerror on Validation Set: 3.5681
+No improvement in q-error for 15 epochs
+Epoch 57/1000, Training Loss: 6527829671164248064.0000
+Validation Loss: 760139048806252544.0000, Median Qerror on Validation Set: 3.4895
+No improvement in q-error for 16 epochs
+Epoch 58/1000, Training Loss: 6479442913204895744.0000
+Validation Loss: 731795219590152192.0000, Median Qerror on Validation Set: 3.4321
+No improvement in q-error for 17 epochs
+Epoch 59/1000, Training Loss: 6425503621525274624.0000
+Validation Loss: 709677168807903232.0000, Median Qerror on Validation Set: 3.3970
+No improvement in q-error for 18 epochs
+Epoch 60/1000, Training Loss: 6362819913869950976.0000
+Validation Loss: 693687795838877696.0000, Median Qerror on Validation Set: 3.3845
+No improvement in q-error for 19 epochs
+Epoch 61/1000, Training Loss: 6290735931552956416.0000
+Validation Loss: 685140810919837696.0000, Median Qerror on Validation Set: 3.3952
+No improvement in q-error for 20 epochs
+Epoch 62/1000, Training Loss: 6211490830004256768.0000
+Validation Loss: 687298602489348096.0000, Median Qerror on Validation Set: 3.4304
+No improvement in q-error for 21 epochs
+Epoch 63/1000, Training Loss: 6126714635212029952.0000
+Validation Loss: 707338919892484096.0000, Median Qerror on Validation Set: 3.4971
+No improvement in q-error for 22 epochs
+Epoch 64/1000, Training Loss: 6041841133640744960.0000
+Validation Loss: 739957031842086912.0000, Median Qerror on Validation Set: 3.5774
+No improvement in q-error for 23 epochs
+Epoch 65/1000, Training Loss: 5955339805104537600.0000
+Validation Loss: 776426183267975168.0000, Median Qerror on Validation Set: 3.6516
+No improvement in q-error for 24 epochs
+Epoch 66/1000, Training Loss: 5870272789486764032.0000
+Validation Loss: 810466719666536448.0000, Median Qerror on Validation Set: 3.7087
+No improvement in q-error for 25 epochs
+Epoch 67/1000, Training Loss: 5784778613601599488.0000
+Validation Loss: 829147971978264576.0000, Median Qerror on Validation Set: 3.7317
+No improvement in q-error for 26 epochs
+Epoch 68/1000, Training Loss: 5689781358717566976.0000
+Validation Loss: 819635890727944192.0000, Median Qerror on Validation Set: 3.7062
+No improvement in q-error for 27 epochs
+Epoch 69/1000, Training Loss: 5581243068381659136.0000
+Validation Loss: 783668666360135680.0000, Median Qerror on Validation Set: 3.6396
+No improvement in q-error for 28 epochs
+Epoch 70/1000, Training Loss: 5463703076349149184.0000
+Validation Loss: 730033183487164416.0000, Median Qerror on Validation Set: 3.5520
+No improvement in q-error for 29 epochs
+Epoch 71/1000, Training Loss: 5343235634607685632.0000
+Validation Loss: 668364118905847808.0000, Median Qerror on Validation Set: 3.4456
+No improvement in q-error for 30 epochs
+Early stopping triggered at epoch 71
+Early stopping at epoch 71
+Median Qerror on Validation Set: 3.2716
+New best q-error: 3.2716 with parameters {'learning_rate': 0.01, 'weight_decay': 0.0001, 'hidden_dim': 256, 'heads': 4}
+
+Testing combination 9/9:
+Learning Rate: 0.01, Weight Decay: 0.0001, Hidden Dim: 256, Heads: 8
+Epoch 1/1000, Training Loss: 8659590852642865152.0000
+Validation Loss: 1779152612814225408.0000, Median Qerror on Validation Set: 2871761.0000
+Improved validation q-error to 2871761.0000
+Epoch 2/1000, Training Loss: 8659589753131237376.0000
+Validation Loss: 1779140380747366400.0000, Median Qerror on Validation Set: 172480.8906
+Improved validation q-error to 172480.8906
+Epoch 3/1000, Training Loss: 8659573810212634624.0000
+Validation Loss: 1779078533218304000.0000, Median Qerror on Validation Set: 30086.7461
+Improved validation q-error to 30086.7461
+Epoch 4/1000, Training Loss: 8659490247328923648.0000
+Validation Loss: 1778869488570073088.0000, Median Qerror on Validation Set: 7932.9575
+Improved validation q-error to 7932.9575
+Epoch 5/1000, Training Loss: 8659205473817329664.0000
+Validation Loss: 1778315609587580928.0000, Median Qerror on Validation Set: 2687.2979
+Improved validation q-error to 2687.2979
+Epoch 6/1000, Training Loss: 8658450659084861440.0000
+Validation Loss: 1777060654503428096.0000, Median Qerror on Validation Set: 1075.2235
+Improved validation q-error to 1075.2235
+Epoch 7/1000, Training Loss: 8656739818992041984.0000
+Validation Loss: 1774517209230475264.0000, Median Qerror on Validation Set: 485.0197
+Improved validation q-error to 485.0197
+Epoch 8/1000, Training Loss: 8653272509073850368.0000
+Validation Loss: 1769777214603132928.0000, Median Qerror on Validation Set: 239.4683
+Improved validation q-error to 239.4683
+Epoch 9/1000, Training Loss: 8646805181679271936.0000
+Validation Loss: 1761505313749467136.0000, Median Qerror on Validation Set: 126.8764
+Improved validation q-error to 126.8764
+Epoch 10/1000, Training Loss: 8635497804099223552.0000
+Validation Loss: 1747809109719121920.0000, Median Qerror on Validation Set: 71.1152
+Improved validation q-error to 71.1152
+Epoch 11/1000, Training Loss: 8616739585973551104.0000
+Validation Loss: 1726111072378683392.0000, Median Qerror on Validation Set: 41.7262
+Improved validation q-error to 41.7262
+Epoch 12/1000, Training Loss: 8586938422814310400.0000
+Validation Loss: 1693098373193662464.0000, Median Qerror on Validation Set: 25.4376
+Improved validation q-error to 25.4376
+Epoch 13/1000, Training Loss: 8541417541912756224.0000
+Validation Loss: 1644740614853492736.0000, Median Qerror on Validation Set: 16.0158
+Improved validation q-error to 16.0158
+Epoch 14/1000, Training Loss: 8474342384816095232.0000
+Validation Loss: 1576474824102903808.0000, Median Qerror on Validation Set: 10.3584
+Improved validation q-error to 10.3584
+Epoch 15/1000, Training Loss: 8378937760873971712.0000
+Validation Loss: 1483973735491829760.0000, Median Qerror on Validation Set: 6.8534
+Improved validation q-error to 6.8534
+Epoch 16/1000, Training Loss: 8248164596645363712.0000
+Validation Loss: 1365122713282150400.0000, Median Qerror on Validation Set: 4.8928
+Improved validation q-error to 4.8928
+Epoch 17/1000, Training Loss: 8076439022328610816.0000
+Validation Loss: 1223428924688564224.0000, Median Qerror on Validation Set: 3.8554
+Improved validation q-error to 3.8554
+Epoch 18/1000, Training Loss: 7863290996702838784.0000
+Validation Loss: 1075196203005640704.0000, Median Qerror on Validation Set: 3.3773
+Improved validation q-error to 3.3773
+Epoch 19/1000, Training Loss: 7620733783813128192.0000
+Validation Loss: 963624360088698880.0000, Median Qerror on Validation Set: 3.3368
+Improved validation q-error to 3.3368
+Epoch 20/1000, Training Loss: 7387753866957160448.0000
+Validation Loss: 979033190918258688.0000, Median Qerror on Validation Set: 3.6733
+No improvement in q-error for 1 epochs
+Epoch 21/1000, Training Loss: 7254688770740453376.0000
+Validation Loss: 1234753344698843136.0000, Median Qerror on Validation Set: 4.2815
+No improvement in q-error for 2 epochs
+Epoch 22/1000, Training Loss: 7355006562391293952.0000
+Validation Loss: 1501692777690300416.0000, Median Qerror on Validation Set: 4.6846
+No improvement in q-error for 3 epochs
+Epoch 23/1000, Training Loss: 7529735452719316992.0000
+Validation Loss: 1466255930243940352.0000, Median Qerror on Validation Set: 4.6389
+No improvement in q-error for 4 epochs
+Epoch 24/1000, Training Loss: 7480728570201899008.0000
+Validation Loss: 1268223578159972352.0000, Median Qerror on Validation Set: 4.3511
+No improvement in q-error for 5 epochs
+Epoch 25/1000, Training Loss: 7316708373372600320.0000
+Validation Loss: 1072451547104804864.0000, Median Qerror on Validation Set: 3.9967
+No improvement in q-error for 6 epochs
+Epoch 26/1000, Training Loss: 7181378283202674688.0000
+Validation Loss: 949327410392727552.0000, Median Qerror on Validation Set: 3.6850
+No improvement in q-error for 7 epochs
+Epoch 27/1000, Training Loss: 7125929911813931008.0000
+Validation Loss: 895223535566323712.0000, Median Qerror on Validation Set: 3.4619
+No improvement in q-error for 8 epochs
+Epoch 28/1000, Training Loss: 7130901903394734080.0000
+Validation Loss: 879661941339979776.0000, Median Qerror on Validation Set: 3.3249
+Improved validation q-error to 3.3249
+Epoch 29/1000, Training Loss: 7156805847589322752.0000
+Validation Loss: 876394330221182976.0000, Median Qerror on Validation Set: 3.2500
+Improved validation q-error to 3.2500
+Epoch 30/1000, Training Loss: 7174381540959322112.0000
+Validation Loss: 871233841115693056.0000, Median Qerror on Validation Set: 3.2151
+Improved validation q-error to 3.2151
+Epoch 31/1000, Training Loss: 7169398004506427392.0000
+Validation Loss: 859717556326367232.0000, Median Qerror on Validation Set: 3.2101
+Improved validation q-error to 3.2101
+Epoch 32/1000, Training Loss: 7138067420672950272.0000
+Validation Loss: 844003542300622848.0000, Median Qerror on Validation Set: 3.2365
+No improvement in q-error for 1 epochs
+Epoch 33/1000, Training Loss: 7083060503202758656.0000
+Validation Loss: 831245496566677504.0000, Median Qerror on Validation Set: 3.3025
+No improvement in q-error for 2 epochs
+Epoch 34/1000, Training Loss: 7011917702839140352.0000
+Validation Loss: 832464030328160256.0000, Median Qerror on Validation Set: 3.4161
+No improvement in q-error for 3 epochs
+Epoch 35/1000, Training Loss: 6936575317813231616.0000
+Validation Loss: 859757688500781056.0000, Median Qerror on Validation Set: 3.5771
+No improvement in q-error for 4 epochs
+Epoch 36/1000, Training Loss: 6871760756623278080.0000
+Validation Loss: 919099086966095872.0000, Median Qerror on Validation Set: 3.7693
+No improvement in q-error for 5 epochs
+Epoch 37/1000, Training Loss: 6829440554070179840.0000
+Validation Loss: 998831272165900288.0000, Median Qerror on Validation Set: 3.9552
+No improvement in q-error for 6 epochs
+Epoch 38/1000, Training Loss: 6808641642363355136.0000
+Validation Loss: 1064904499291750400.0000, Median Qerror on Validation Set: 4.0836
+No improvement in q-error for 7 epochs
+Epoch 39/1000, Training Loss: 6789471657133080576.0000
+Validation Loss: 1080018935882973184.0000, Median Qerror on Validation Set: 4.1148
+No improvement in q-error for 8 epochs
+Epoch 40/1000, Training Loss: 6746717147487010816.0000
+Validation Loss: 1034368724926201856.0000, Median Qerror on Validation Set: 4.0448
+No improvement in q-error for 9 epochs
+Epoch 41/1000, Training Loss: 6674224696600297472.0000
+Validation Loss: 950113767365017600.0000, Median Qerror on Validation Set: 3.9028
+No improvement in q-error for 10 epochs
+Epoch 42/1000, Training Loss: 6587966909889642496.0000
+Validation Loss: 858708410810499072.0000, Median Qerror on Validation Set: 3.7312
+No improvement in q-error for 11 epochs
+Epoch 43/1000, Training Loss: 6506704204503973888.0000
+Validation Loss: 780424694741336064.0000, Median Qerror on Validation Set: 3.5662
+No improvement in q-error for 12 epochs
+Epoch 44/1000, Training Loss: 6436430018326298624.0000
+Validation Loss: 720610849873461248.0000, Median Qerror on Validation Set: 3.4300
+No improvement in q-error for 13 epochs
+Epoch 45/1000, Training Loss: 6370449425055088640.0000
+Validation Loss: 676844789529837568.0000, Median Qerror on Validation Set: 3.3337
+No improvement in q-error for 14 epochs
+Epoch 46/1000, Training Loss: 6298583695796207616.0000
+Validation Loss: 646849356409864192.0000, Median Qerror on Validation Set: 3.2845
+No improvement in q-error for 15 epochs
+Epoch 47/1000, Training Loss: 6214710749806198784.0000
+Validation Loss: 635654403893755904.0000, Median Qerror on Validation Set: 3.2955
+No improvement in q-error for 16 epochs
+Epoch 48/1000, Training Loss: 6115874000317972480.0000
+Validation Loss: 648765255421263872.0000, Median Qerror on Validation Set: 3.3666
+No improvement in q-error for 17 epochs
+Epoch 49/1000, Training Loss: 6002546237331472384.0000
+
+Validation Loss: 685706509652328448.0000, Median Qerror on Validation Set: 3.4758
+No improvement in q-error for 18 epochs
+Epoch 50/1000, Training Loss: 5881397648136601600.0000
+Validation Loss: 750773821077716992.0000, Median Qerror on Validation Set: 3.6084
+No improvement in q-error for 19 epochs
+Epoch 51/1000, Training Loss: 5763737259580850176.0000
+Validation Loss: 829510467218046976.0000, Median Qerror on Validation Set: 3.7280
+No improvement in q-error for 20 epochs
+Epoch 52/1000, Training Loss: 5645787699466993664.0000
+Validation Loss: 885944001025277952.0000, Median Qerror on Validation Set: 3.8187
+No improvement in q-error for 21 epochs
+Epoch 53/1000, Training Loss: 5516600031005638656.0000
+Validation Loss: 892483758748336128.0000, Median Qerror on Validation Set: 3.8379
+No improvement in q-error for 22 epochs
+Epoch 54/1000, Training Loss: 5369822375523123200.0000
+Validation Loss: 838441937609424896.0000, Median Qerror on Validation Set: 3.7515
+No improvement in q-error for 23 epochs
+Epoch 55/1000, Training Loss: 5212952852565065728.0000
+Validation Loss: 743066863042297856.0000, Median Qerror on Validation Set: 3.5890
+No improvement in q-error for 24 epochs
+Epoch 56/1000, Training Loss: 5052167968700497920.0000
+Validation Loss: 645387693139689472.0000, Median Qerror on Validation Set: 3.4084
+No improvement in q-error for 25 epochs
+Epoch 57/1000, Training Loss: 4897241282788720640.0000
+Validation Loss: 655318001125425152.0000, Median Qerror on Validation Set: 3.3955
+No improvement in q-error for 26 epochs
+Epoch 58/1000, Training Loss: 4797805849219170304.0000
+Validation Loss: 830956325008572416.0000, Median Qerror on Validation Set: 3.6242
+No improvement in q-error for 27 epochs
+Epoch 59/1000, Training Loss: 4716965356298567680.0000
+Validation Loss: 1126875448534368256.0000, Median Qerror on Validation Set: 3.9622
+No improvement in q-error for 28 epochs
+Epoch 60/1000, Training Loss: 4643817596481699840.0000
+Validation Loss: 1475865386992795648.0000, Median Qerror on Validation Set: 4.3191
+No improvement in q-error for 29 epochs
+Epoch 61/1000, Training Loss: 4593602350685356032.0000
+Validation Loss: 1717678917705269248.0000, Median Qerror on Validation Set: 4.5617
+No improvement in q-error for 30 epochs
+Early stopping triggered at epoch 61
+Early stopping at epoch 61
+Median Qerror on Validation Set: 3.2101
+New best q-error: 3.2101 with parameters {'learning_rate': 0.01, 'weight_decay': 0.0001, 'hidden_dim': 256, 'heads': 8}
+
+Grid search complete.
+Best Median Qerror: 3.2101
+Best Hyperparameters:
+{'learning_rate': 0.01, 'weight_decay': 0.0001, 'hidden_dim': 256, 'heads': 8}
+
+Median Qerror on Validation Set with Best Model: 4.5617
